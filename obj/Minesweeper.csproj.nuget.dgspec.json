@@ -4,6 +4,21 @@
     "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\Minesweeper.csproj": {}
   },
   "projects": {
+    "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\MinesweeperLibrary\\MinesweeperLibrary.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\MinesweeperLibrary\\MinesweeperLibrary.csproj",
+        "projectName": "MinesweeperLibrary",
+        "projectPath": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\MinesweeperLibrary\\MinesweeperLibrary.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\Minesweeper.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +42,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\MinesweeperLibrary\\MinesweeperLibrary.csproj": {
+                "projectPath": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\MinesweeperLibrary\\MinesweeperLibrary.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -54,6 +73,10 @@
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[9.0.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
@@ -75,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.405/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
