@@ -5,6 +5,310 @@
       "PackagePath": "staticwebassets\\Minesweeper.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\BtnCustom.png",
+      "PackagePath": "staticwebassets\\assets\\BtnCustom.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\BtnEasy.png",
+      "PackagePath": "staticwebassets\\assets\\BtnEasy.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\BtnGreen.png",
+      "PackagePath": "staticwebassets\\assets\\BtnGreen.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\BtnHard.png",
+      "PackagePath": "staticwebassets\\assets\\BtnHard.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\BtnHighScores.png",
+      "PackagePath": "staticwebassets\\assets\\BtnHighScores.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\BtnHover.png",
+      "PackagePath": "staticwebassets\\assets\\BtnHover.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\BtnMedium.png",
+      "PackagePath": "staticwebassets\\assets\\BtnMedium.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\BtnName.png",
+      "PackagePath": "staticwebassets\\assets\\BtnName.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\BtnRed.png",
+      "PackagePath": "staticwebassets\\assets\\BtnRed.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\BtnSelect.png",
+      "PackagePath": "staticwebassets\\assets\\BtnSelect.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\BtnStart.png",
+      "PackagePath": "staticwebassets\\assets\\BtnStart.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\BtnYellow.png",
+      "PackagePath": "staticwebassets\\assets\\BtnYellow.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Custom.png",
+      "PackagePath": "staticwebassets\\assets\\Custom.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Defuse.gif",
+      "PackagePath": "staticwebassets\\assets\\Defuse.gif"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Easy.png",
+      "PackagePath": "staticwebassets\\assets\\Easy.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Explode.gif",
+      "PackagePath": "staticwebassets\\assets\\Explode.gif"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Exploded.png",
+      "PackagePath": "staticwebassets\\assets\\Exploded.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Flag.png",
+      "PackagePath": "staticwebassets\\assets\\Flag.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Hard.png",
+      "PackagePath": "staticwebassets\\assets\\Hard.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Medium.png",
+      "PackagePath": "staticwebassets\\assets\\Medium.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Mine.png",
+      "PackagePath": "staticwebassets\\assets\\Mine.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Mute.png",
+      "PackagePath": "staticwebassets\\assets\\Mute.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\MuteAll.png",
+      "PackagePath": "staticwebassets\\assets\\MuteAll.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Num 1.png",
+      "PackagePath": "staticwebassets\\assets\\Num 1.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Num 2.png",
+      "PackagePath": "staticwebassets\\assets\\Num 2.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Num 3.png",
+      "PackagePath": "staticwebassets\\assets\\Num 3.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Num 4.png",
+      "PackagePath": "staticwebassets\\assets\\Num 4.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Num 5.png",
+      "PackagePath": "staticwebassets\\assets\\Num 5.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Num 6.png",
+      "PackagePath": "staticwebassets\\assets\\Num 6.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Num 7.png",
+      "PackagePath": "staticwebassets\\assets\\Num 7.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Num 8.png",
+      "PackagePath": "staticwebassets\\assets\\Num 8.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Old\\Bomb.png",
+      "PackagePath": "staticwebassets\\assets\\Old\\Bomb.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Old\\Gold.png",
+      "PackagePath": "staticwebassets\\assets\\Old\\Gold.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Old\\Number 1.png",
+      "PackagePath": "staticwebassets\\assets\\Old\\Number 1.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Old\\Number 2.png",
+      "PackagePath": "staticwebassets\\assets\\Old\\Number 2.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Old\\Number 3.png",
+      "PackagePath": "staticwebassets\\assets\\Old\\Number 3.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Old\\Number 4.png",
+      "PackagePath": "staticwebassets\\assets\\Old\\Number 4.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Old\\Number 5.png",
+      "PackagePath": "staticwebassets\\assets\\Old\\Number 5.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Old\\Number 6.png",
+      "PackagePath": "staticwebassets\\assets\\Old\\Number 6.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Old\\Number 7.png",
+      "PackagePath": "staticwebassets\\assets\\Old\\Number 7.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Old\\Number 8.png",
+      "PackagePath": "staticwebassets\\assets\\Old\\Number 8.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Old\\Skull.png",
+      "PackagePath": "staticwebassets\\assets\\Old\\Skull.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Old\\Tile 1.png",
+      "PackagePath": "staticwebassets\\assets\\Old\\Tile 1.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Old\\Tile 2.png",
+      "PackagePath": "staticwebassets\\assets\\Old\\Tile 2.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Old\\Tile Flat.png",
+      "PackagePath": "staticwebassets\\assets\\Old\\Tile Flat.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Old\\icon.ico",
+      "PackagePath": "staticwebassets\\assets\\Old\\icon.ico"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Reward.png",
+      "PackagePath": "staticwebassets\\assets\\Reward.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Sound.png",
+      "PackagePath": "staticwebassets\\assets\\Sound.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\SoundEffects\\MainButton.mp3",
+      "PackagePath": "staticwebassets\\assets\\SoundEffects\\MainButton.mp3"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\SoundEffects\\Reward.mp3",
+      "PackagePath": "staticwebassets\\assets\\SoundEffects\\Reward.mp3"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\SoundEffects\\defuse.mp3",
+      "PackagePath": "staticwebassets\\assets\\SoundEffects\\defuse.mp3"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\SoundEffects\\explosion.mp3",
+      "PackagePath": "staticwebassets\\assets\\SoundEffects\\explosion.mp3"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\SoundEffects\\flag.mp3",
+      "PackagePath": "staticwebassets\\assets\\SoundEffects\\flag.mp3"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\SoundEffects\\gameplay.mp3",
+      "PackagePath": "staticwebassets\\assets\\SoundEffects\\gameplay.mp3"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\SoundEffects\\lost.mp3",
+      "PackagePath": "staticwebassets\\assets\\SoundEffects\\lost.mp3"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\SoundEffects\\mainMenu.mp3",
+      "PackagePath": "staticwebassets\\assets\\SoundEffects\\mainMenu.mp3"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\SoundEffects\\tileclick.mp3",
+      "PackagePath": "staticwebassets\\assets\\SoundEffects\\tileclick.mp3"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\SoundEffects\\victory.mp3",
+      "PackagePath": "staticwebassets\\assets\\SoundEffects\\victory.mp3"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Tile Hover.png",
+      "PackagePath": "staticwebassets\\assets\\Tile Hover.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Tile Revealed.png",
+      "PackagePath": "staticwebassets\\assets\\Tile Revealed.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Tile.png",
+      "PackagePath": "staticwebassets\\assets\\Tile.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\banner.png",
+      "PackagePath": "staticwebassets\\assets\\banner.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\bg.png",
+      "PackagePath": "staticwebassets\\assets\\bg.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\boardbg.png",
+      "PackagePath": "staticwebassets\\assets\\boardbg.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\changenameBg.png",
+      "PackagePath": "staticwebassets\\assets\\changenameBg.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\highscoresbg.png",
+      "PackagePath": "staticwebassets\\assets\\highscoresbg.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\info1.png",
+      "PackagePath": "staticwebassets\\assets\\info1.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\info2.png",
+      "PackagePath": "staticwebassets\\assets\\info2.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\info3.png",
+      "PackagePath": "staticwebassets\\assets\\info3.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\info4.png",
+      "PackagePath": "staticwebassets\\assets\\info4.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\logo.ico",
+      "PackagePath": "staticwebassets\\assets\\logo.ico"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\logo.jpeg",
+      "PackagePath": "staticwebassets\\assets\\logo.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\score1.png",
+      "PackagePath": "staticwebassets\\assets\\score1.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\score2.png",
+      "PackagePath": "staticwebassets\\assets\\score2.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\score3.png",
+      "PackagePath": "staticwebassets\\assets\\score3.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\score4.png",
+      "PackagePath": "staticwebassets\\assets\\score4.png"
+    },
+    {
       "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

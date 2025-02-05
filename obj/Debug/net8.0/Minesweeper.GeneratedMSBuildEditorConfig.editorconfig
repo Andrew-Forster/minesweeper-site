@@ -26,6 +26,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\forst\School\SPMR\CST-350 C# 3\Minesweeper\Minesweeper
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/forst/School/SPMR/CST-350 C\# 3/Minesweeper/Minesweeper/Views/Game/Game.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZVxHYW1lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/forst/School/SPMR/CST-350 C\# 3/Minesweeper/Minesweeper/Views/Game/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,62 @@
+@model Minesweeper.Models.StartGameModel
+
+@{
+    int rows = Model.BoardSize;
+    int cols = Model.BoardSize;
+}
+
+<div class="game-container">
+    <div class="board" style="grid-template-columns: repeat(@cols, 30px);">
+        @for (int i = 0; i < rows; i++)
+        {
+            @for (int j = 0; j < cols; j++)
+            {
+                <button class="cell" data-row="@i" data-col="@j" onclick="revealCell(@i, @j)"></button>
+            }
+        }
+    </div>
+</div>
+
+<script>
+    function revealCell(row, col) {
+        fetch(`/Game/RevealCell?row=${row}&col=${col}`, {
+            method: 'POST'
+        })
+        .then(response => response.json())
+        .then(data => {
+            let cell = document.querySelector(`[data-row='${row}'][data-col='${col}']`);
+            switch(data.type)
+            {
+                case 'mine':
+                    cell.style.backgroundImage = "url('/assets/mine.png')";
+                    break;
+                case 'number':
+                    cell.style.backgroundImage = `url('/assets/Num ${data.value}.png')`;
+                    break;
+            }
+            cell.style.backgroundSize = "cover";
+            cell.disabled = true;
+        })
+        .catch(error => console.error('Error:', error));
+    }
+</script>
+
+<style>
+    .game-container {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .board {
+        display: grid;
+        justify-content: center;
+    }
+    .cell {
+        width: 30px;
+        height: 30px;
+        border: 1px solid black;
+        background-color: lightgray;
+        font-size: 18px;
+        background-image: url('/assets/tile.png');
+        background-size: cover;
+    }
+</style>

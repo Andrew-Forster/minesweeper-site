@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using Minesweeper.Filters;
 using Minesweeper.Models;
 using System.Text.Json;
@@ -73,16 +72,6 @@ namespace Minesweeper.Controllers
 			TempData["ErrorMessage"] = "Invalid username or password.";
 			return RedirectToAction("Login");
 		}
-
-		/// <summary>
-		/// Checks if the user is logged in
-		/// </summary>
-		/// <returns></returns>
-		[SessionCheckFilter]
-		public IActionResult StartGame()
-		{
-            return View("~/Views/Game/Index.cshtml");
-        }
 
         /// <summary>
         /// Shows the user's account information
