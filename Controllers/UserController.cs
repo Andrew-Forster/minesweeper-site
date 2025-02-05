@@ -1,23 +1,23 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.Text.Json;
+using Microsoft.AspNetCore.Mvc;
 using Minesweeper.Filters;
 using Minesweeper.Models;
-using System.Text.Json;
 
 namespace Minesweeper.Controllers
 {
-	public class UserController : Controller
-	{
-		private readonly ApplicationDbContext _context;
+    public class UserController : Controller
+    {
+        private readonly ApplicationDbContext _context;
 
-		public UserController(ApplicationDbContext context)
-		{
-			_context = context;
-		}
+        public UserController(ApplicationDbContext context)
+        {
+            _context = context;
+        }
 
-		public IActionResult Index()
-		{
-			return View();
-		}
+        public IActionResult Index()
+        {
+            return View();
+        }
 
         /// <summary>
         /// Registers a new user.
@@ -25,30 +25,30 @@ namespace Minesweeper.Controllers
         /// <param name="model"></param>
         /// <returns></returns>
         [HttpPost]
-		public async Task<IActionResult> Register(RegisterViewModel model)
-		{
-			if (ModelState.IsValid)
-			{
-				var user = new UserModel
-				{
-					FirstName = model.FirstName,
-					LastName = model.LastName,
-					Sex = model.Sex,
-					Age = model.Age,
-					State = model.State,
-					EmailAddress = model.EmailAddress,
-					Username = model.Username
-				};
-				user.SetPassword(model.Password);
+        public async Task<IActionResult> Register(RegisterViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var user = new UserModel
+                {
+                    FirstName = model.FirstName,
+                    LastName = model.LastName,
+                    Sex = model.Sex,
+                    Age = model.Age,
+                    State = model.State,
+                    EmailAddress = model.EmailAddress,
+                    Username = model.Username,
+                };
+                user.SetPassword(model.Password);
 
-				_context.Users.Add(user);
-				await _context.SaveChangesAsync();
+                _context.Users.Add(user);
+                await _context.SaveChangesAsync();
 
-				return View("RegisterSuccess");
+                return View("RegisterSuccess");
             }
 
-			return View(model);
-		}
+            return View(model);
+        }
 
         /// <summary>
         /// Logs in a user.
@@ -56,22 +56,22 @@ namespace Minesweeper.Controllers
         /// <param name="model"></param>
         /// <returns></returns>
         [HttpPost]
-		public IActionResult Login(LoginViewModel model)
-		{
-			if (ModelState.IsValid)
-			{
-				var user = _context.Users.FirstOrDefault(u => u.Username == model.Username);
-				if (user != null && user.VerifyPassword(model.Password))
-				{
-					HttpContext.Session.SetString("User", JsonSerializer.Serialize(user));
+        public IActionResult Login(LoginViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var user = _context.Users.FirstOrDefault(u => u.Username == model.Username);
+                if (user != null && user.VerifyPassword(model.Password))
+                {
+                    HttpContext.Session.SetString("User", JsonSerializer.Serialize(user));
 
-					return View("LoginSuccess");
+                    return View("LoginSuccess");
                 }
-			}
+            }
 
-			TempData["ErrorMessage"] = "Invalid username or password.";
-			return RedirectToAction("Login");
-		}
+            TempData["ErrorMessage"] = "Invalid username or password.";
+            return RedirectToAction("Login");
+        }
 
         /// <summary>
         /// Shows the user's account information
@@ -90,10 +90,10 @@ namespace Minesweeper.Controllers
             return View("Index");
         }
 
-		/// <summary>
-		/// Shows the login page
-		/// </summary>
-		/// <returns></returns>
+        /// <summary>
+        /// Shows the login page
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public IActionResult Login()
         {
@@ -114,14 +114,11 @@ namespace Minesweeper.Controllers
         /// Logs the user out
         /// </summary>
         /// <returns></returns>
-        [HttpPost]
+        [HttpGet]
         public IActionResult Logout()
         {
             HttpContext.Session.Remove("User");
             return RedirectToAction("Login");
         }
-
-
-
     }
 }

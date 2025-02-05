@@ -157,3 +157,6 @@ C:\Users\forst\School\SPMR\CST-350 C# 3\Minesweeper\Minesweeper\obj\Debug\net8.0
 C:\Users\forst\School\SPMR\CST-350 C# 3\Minesweeper\Minesweeper\obj\Debug\net8.0\Minesweeper.pdb
 C:\Users\forst\School\SPMR\CST-350 C# 3\Minesweeper\Minesweeper\obj\Debug\net8.0\Minesweeper.genruntimeconfig.cache
 C:\Users\forst\School\SPMR\CST-350 C# 3\Minesweeper\Minesweeper\obj\Debug\net8.0\ref\Minesweeper.dll
+C:\Users\forst\School\SPMR\CST-350 C# 3\Minesweeper\Minesweeper\bin\Debug\net8.0\MinesweeperLibrary.dll
+C:\Users\forst\School\SPMR\CST-350 C# 3\Minesweeper\Minesweeper\bin\Debug\net8.0\MinesweeperLibrary.pdb
+C:\Users\forst\School\SPMR\CST-350 C# 3\Minesweeper\Minesweeper\bin\Debug\net8.0\Newtonsoft.Json.dll
