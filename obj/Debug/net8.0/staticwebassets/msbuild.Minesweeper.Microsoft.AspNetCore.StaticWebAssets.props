@@ -1368,6 +1368,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Assets\SoundEffects\victory.mp3'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Azonix.otf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Minesweeper</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Minesweeper</BasePath>
+      <RelativePath>Azonix.otf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ljp0h1hbnn</Fingerprint>
+      <Integrity>UaZeXAm/J5gK32QMtUyypbuyF/2qt5s3fhWPklMzYqk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Azonix.otf'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\game.css'))">
       <SourceType>Package</SourceType>
       <SourceId>Minesweeper</SourceId>
@@ -1380,8 +1398,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>o34rbk5izz</Fingerprint>
-      <Integrity>fCfzyY/4vcul1gH7ff7kUmd8Mr5YecunNI1L8DyHCXc=</Integrity>
+      <Fingerprint>edkam9se37</Fingerprint>
+      <Integrity>ol8nMPBB758IIXytS299vLuZyiwTYdB4ngo1bJpiHzk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\game.css'))</OriginalItemSpec>
@@ -1398,8 +1416,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>v4og028veh</Fingerprint>
-      <Integrity>0ZlKPF/N3Pu/CVRdXL1JWJeXlxl1FylF6KWoyrblXjM=</Integrity>
+      <Fingerprint>bnc3525w2y</Fingerprint>
+      <Integrity>xx/lbXg50mZ/zm+aY9XwiSW+3DZgxyeoVTT97vRFhoA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LXeESTBPSp4XY3dn2c2q/FklSuSLrIBcAbB2aDs3U3I=",
+  "Hash": "/ekuoZvGk0bOFnXaYK+kB9q0yAs55BwzQa96YZ2qYfE=",
   "Source": "Minesweeper",
   "BasePath": "_content/Minesweeper",
   "Mode": "Default",
@@ -1655,6 +1655,27 @@
       "OriginalItemSpec": "wwwroot\\Assets\\SoundEffects\\victory.mp3"
     },
     {
+      "Identity": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Azonix.otf",
+      "SourceId": "Minesweeper",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\",
+      "BasePath": "_content/Minesweeper",
+      "RelativePath": "Azonix#[.{fingerprint}]?.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ljp0h1hbnn",
+      "Integrity": "UaZeXAm/J5gK32QMtUyypbuyF/2qt5s3fhWPklMzYqk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Azonix.otf"
+    },
+    {
       "Identity": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\css\\game.css",
       "SourceId": "Minesweeper",
       "SourceType": "Discovered",
@@ -1669,8 +1690,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "o34rbk5izz",
-      "Integrity": "fCfzyY/4vcul1gH7ff7kUmd8Mr5YecunNI1L8DyHCXc=",
+      "Fingerprint": "edkam9se37",
+      "Integrity": "ol8nMPBB758IIXytS299vLuZyiwTYdB4ngo1bJpiHzk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\game.css"
@@ -1690,8 +1711,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "v4og028veh",
-      "Integrity": "0ZlKPF/N3Pu/CVRdXL1JWJeXlxl1FylF6KWoyrblXjM=",
+      "Fingerprint": "bnc3525w2y",
+      "Integrity": "xx/lbXg50mZ/zm+aY9XwiSW+3DZgxyeoVTT97vRFhoA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -9170,6 +9191,88 @@
       ]
     },
     {
+      "Route": "Azonix.ljp0h1hbnn.otf",
+      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Azonix.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12076"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UaZeXAm/J5gK32QMtUyypbuyF/2qt5s3fhWPklMzYqk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Mar 2025 05:49:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ljp0h1hbnn"
+        },
+        {
+          "Name": "label",
+          "Value": "Azonix.otf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UaZeXAm/J5gK32QMtUyypbuyF/2qt5s3fhWPklMzYqk="
+        }
+      ]
+    },
+    {
+      "Route": "Azonix.otf",
+      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Azonix.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12076"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UaZeXAm/J5gK32QMtUyypbuyF/2qt5s3fhWPklMzYqk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Mar 2025 05:49:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UaZeXAm/J5gK32QMtUyypbuyF/2qt5s3fhWPklMzYqk="
+        }
+      ]
+    },
+    {
       "Route": "css/game.css",
       "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\css\\game.css",
       "Selectors": [],
@@ -9180,7 +9283,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2026"
+          "Value": "2213"
         },
         {
           "Name": "Content-Type",
@@ -9188,11 +9291,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fCfzyY/4vcul1gH7ff7kUmd8Mr5YecunNI1L8DyHCXc=\""
+          "Value": "\"ol8nMPBB758IIXytS299vLuZyiwTYdB4ngo1bJpiHzk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 05:36:55 GMT"
+          "Value": "Fri, 07 Mar 2025 08:06:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9202,12 +9305,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-fCfzyY/4vcul1gH7ff7kUmd8Mr5YecunNI1L8DyHCXc="
+          "Value": "sha256-ol8nMPBB758IIXytS299vLuZyiwTYdB4ngo1bJpiHzk="
         }
       ]
     },
     {
-      "Route": "css/game.o34rbk5izz.css",
+      "Route": "css/game.edkam9se37.css",
       "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\css\\game.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -9217,7 +9320,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2026"
+          "Value": "2213"
         },
         {
           "Name": "Content-Type",
@@ -9225,11 +9328,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fCfzyY/4vcul1gH7ff7kUmd8Mr5YecunNI1L8DyHCXc=\""
+          "Value": "\"ol8nMPBB758IIXytS299vLuZyiwTYdB4ngo1bJpiHzk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 05:36:55 GMT"
+          "Value": "Fri, 07 Mar 2025 08:06:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9239,7 +9342,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "o34rbk5izz"
+          "Value": "edkam9se37"
         },
         {
           "Name": "label",
@@ -9247,7 +9350,52 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-fCfzyY/4vcul1gH7ff7kUmd8Mr5YecunNI1L8DyHCXc="
+          "Value": "sha256-ol8nMPBB758IIXytS299vLuZyiwTYdB4ngo1bJpiHzk="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.bnc3525w2y.css",
+      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1334"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xx/lbXg50mZ/zm+aY9XwiSW+3DZgxyeoVTT97vRFhoA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Mar 2025 05:52:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bnc3525w2y"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xx/lbXg50mZ/zm+aY9XwiSW+3DZgxyeoVTT97vRFhoA="
         }
       ]
     },
@@ -9262,7 +9410,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1212"
+          "Value": "1334"
         },
         {
           "Name": "Content-Type",
@@ -9270,11 +9418,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0ZlKPF/N3Pu/CVRdXL1JWJeXlxl1FylF6KWoyrblXjM=\""
+          "Value": "\"xx/lbXg50mZ/zm+aY9XwiSW+3DZgxyeoVTT97vRFhoA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 04:35:30 GMT"
+          "Value": "Fri, 07 Mar 2025 05:52:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9284,52 +9432,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-0ZlKPF/N3Pu/CVRdXL1JWJeXlxl1FylF6KWoyrblXjM="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.v4og028veh.css",
-      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1212"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"0ZlKPF/N3Pu/CVRdXL1JWJeXlxl1FylF6KWoyrblXjM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 04:35:30 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "v4og028veh"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-0ZlKPF/N3Pu/CVRdXL1JWJeXlxl1FylF6KWoyrblXjM="
+          "Value": "sha256-xx/lbXg50mZ/zm+aY9XwiSW+3DZgxyeoVTT97vRFhoA="
         }
       ]
     },

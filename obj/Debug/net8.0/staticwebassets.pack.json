@@ -309,6 +309,10 @@
       "PackagePath": "staticwebassets\\Assets\\logo.jpeg"
     },
     {
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Azonix.otf",
+      "PackagePath": "staticwebassets\\Azonix.otf"
+    },
+    {
       "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\css\\game.css",
       "PackagePath": "staticwebassets\\css\\game.css"
     },

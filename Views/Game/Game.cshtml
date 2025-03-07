@@ -17,7 +17,7 @@
     </div>
 </div>
 
-<div class="game-container h-100" style="--cell-size: @cellSize;">
+<div class="game-container h-100">
     <aside class="sidebar p-4">
         <p class="tag">
             <img src="/Assets/Images/Game/score4.png"/>
@@ -30,12 +30,12 @@
         <div id="rewardMenu" class="pt-4 text-start text-white">
         </div>
     </aside>
-    <div class="board" style="grid-template-columns: repeat(@cols, 30px);">
+    <div class="board" style="grid-template-columns: repeat(@cols, @cellSize);">
         @for (int i = 0; i < rows; i++)
         {
             @for (int j = 0; j < cols; j++)
             {
-                <button class="cell" data-row="@i" data-col="@j" data-flagged="false" data-reward="false"></button>
+                <button class="cell" data-row="@i" data-col="@j" data-flagged="false"></button>
             }
         }
     </div>
@@ -64,8 +64,6 @@
        });
     });
     
-    let initialBoard;
-
 	function revealCell(row, col) {
 		fetch(`/Game/RevealCell?row=${row}&col=${col}`, {
 			method: 'POST'
@@ -85,22 +83,19 @@
                         rewardMenu.innerHTML += `
                             <button class="tag btn-img w-100" onclick="useReward('${reward}')">
                                 <img src="/Assets/Images/Buttons/BtnYellow.png"/>
+                                <span>${reward}</span>
                             </button>
                         `;
-                        let rewardElement = document.createElement("span");
-                        rewardElement.innerText = reward;
-                        rewardElement.classList.add("reward");
-                        rewardMenu.appendChild(rewardElement);
                     });
-                    
+                    return;
 			    }
 			    
                 if (data.gameState === "lost" ) {
-                    updateBoard(initialBoard, "lost");
+                    updateBoard(data.cells, "lost");
                     document.getElementById("gameModal").classList.add("active");
                     document.querySelector(".modal-content p").innerText = `You lost with ${data.points} points!`;
                 } else if (data.gameState === "won") {
-                    updateBoard(initialBoard, "won");
+                    updateBoard(data.cells, "won");
                     document.getElementById("gameModal").classList.add("active");
                     document.querySelector(".modal-content h2").innerText = "You Win!";
                     document.querySelector(".modal-content p").innerText = `You won with ${data.points} points!`;
@@ -108,9 +103,6 @@
                     updateBoard(data.cells, data.gameState);
                 }
 
-                if (!initialBoard) {
-                    initialBoard = data.cells;
-                }
 			})
 			.catch(error => console.error('Error:', error));
 	}
@@ -123,14 +115,12 @@
             .then(response => response.json())
             .then(data => {
                 updateBoard(data.cells, data.gameState);
-                if (!initialBoard) {
-                    initialBoard = data.cells;
-                }
             })
             .catch(error => console.error('Error:', error));      
 	}
     
     function updateBoard(cells, game) {
+        console.log(cells);
         cells.forEach(cell => {
             let cellElement = document.querySelector(`[data-row='${cell.row}'][data-col='${cell.col}']`);
             if (cell.isFlagged) {
@@ -140,13 +130,11 @@
             } else if (cell.adjacentMines > 0 && cell.isRevealed || (game != "continue" && cell.adjacentMines > 0)) {
                 cellElement.style.backgroundImage = `url('/Assets/Images/Game/Num ${cell.adjacentMines}.png')`;
                 cellElement.disabled = true;
-            } else if (cell.isRevealed && cell.rewardType != 'None' && cell.rewardUsed == false || (game != "continue" && cell.rewardType != 'None')) {
+            } else if (cell.isRevealed && cell.rewardType != 'None' && cell.rewardUsed === false || (game != "continue" && cell.rewardType != 'None')) {
                 cellElement.style.backgroundImage = `url('/Assets/Images/Game/Reward.png')`;
-                cellElement.setAttribute('data-reward', true);
             } else if (cell.isRevealed || game != "continue") {
                 cellElement.style.backgroundImage = "url('/Assets/Images/Game/tile revealed.png')";
                 cellElement.disabled = true;
-                cellElement.setAttribute('data-reward', false);
             } else {
                 cellElement.style.backgroundImage = "url('/Assets/Images/Game/tile.png')";
             }

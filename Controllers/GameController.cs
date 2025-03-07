@@ -60,8 +60,6 @@ namespace Minesweeper.Controllers
         public JsonResult RevealCell(int row, int col)
         {
             var gameBoardJson = HttpContext.Session.GetString(SessionKey);
-            String gameState = "continue";
-
 
             if (string.IsNullOrEmpty(gameBoardJson))
             {
@@ -70,15 +68,17 @@ namespace Minesweeper.Controllers
 
             var board = JsonConvert.DeserializeObject<Board>(gameBoardJson);
 
+
+            if (board.Cells[row, col].RewardType != "None" && !board.Cells[row, col].RewardUsed && board.Shuffled)
+            {
+                board.Reveal(row + 1, col + 1);
+                HttpContext.Session.SetString(SessionKey, JsonConvert.SerializeObject(board));
+                return Json(new { gameState = board.CheckGameState().ToLower(), rewards = board.RewardsInventory, cells = new List<Cell> { board.Cells[row, col] }, points = board.Points });
+            }
+            
             if (!board.Shuffled)
             {
                 board.ShuffleBoard(new Point(row, col));
-            }
-
-            if (board.Cells[row, col].RewardType != "None" && !board.Cells[row, col].RewardUsed)
-            {
-                board.Reveal(row + 1, col + 1);
-                return Json(new { rewards = board.RewardsInventory, cells = board.Cells.Cast<Cell>().ToList(), board.Points });
             }
 
             if (board.Cells[row, col].IsRevealed)
@@ -91,21 +91,19 @@ namespace Minesweeper.Controllers
                 return Json(new { invalid = "Cell is flagged." });
             }
             
-            board.Reveal(row + 1, col + 1);
-
-
-            if (board.CheckGameState() == "Won")
+            List<Cell> changedCells = board.Reveal(row + 1, col + 1);
+            
+            String gameState = board.CheckGameState().ToLower();
+            if (gameState is "won" or "lost")
             {
-                gameState = "won";
-            }
-            else if (board.CheckGameState() == "Lost")
-            {
-                gameState = "lost";
+                var allCells = board.Cells.Cast<Cell>().ToList();
+                return Json(new { gameState, cells = allCells, points = board.Points });
             }
             HttpContext.Session.SetString(SessionKey, JsonConvert.SerializeObject(board));
-            var cells = board.Cells.Cast<Cell>().ToList();
+            var cells = changedCells.Cast<Cell>().ToList();
+            
 
-            return Json(new { gameState, cells, board.Points });
+            return Json(new { gameState, cells, points = board.Points });
         }        
         
         [HttpPost]
@@ -127,11 +125,11 @@ namespace Minesweeper.Controllers
                 board.ShuffleBoard(new Point(row, col));
             }
 
-            board.Cells[row, col].IsFlagged = !board.Cells[row, col].IsFlagged;
+            board.Flag(row, col);
             
             HttpContext.Session.SetString(SessionKey, JsonConvert.SerializeObject(board));
-            var cells = board.Cells.Cast<Cell>().ToList();
-
+            var cells = new List<Cell>();
+            cells.Add(board.Cells[row, col]);
             return Json(new { gameState, cells, board.Points });
         }
     }
