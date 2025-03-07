@@ -42,7 +42,9 @@
     <aside class="sidebar p-4">
     </aside>
 </div>
+
 <script>
+    let usingReward = null;
     document.querySelectorAll('.cell').forEach(btn => {
         btn.addEventListener('click', function(e) {
             e.preventDefault();
@@ -65,6 +67,11 @@
     });
     
 	function revealCell(row, col) {
+	    if (usingReward) {
+            useReward(usingReward, row, col);
+            usingReward = null;
+            return;
+        }
 		fetch(`/Game/RevealCell?row=${row}&col=${col}`, {
 			method: 'POST'
 		})
@@ -77,28 +84,21 @@
 			    if (data.rewards) {
                     updateBoard(data.cells, data.gameState);
                     
-                    let rewardMenu = document.getElementById("rewardMenu");
-                    rewardMenu.innerHTML = 'Use a reward:';
-                    data.rewards.forEach(reward => {
-                        rewardMenu.innerHTML += `
-                            <button class="tag btn-img w-100" onclick="useReward('${reward}')">
-                                <img src="/Assets/Images/Buttons/BtnYellow.png"/>
-                                <span>${reward}</span>
-                            </button>
-                        `;
-                    });
+                    refreshRewards(data);
                     return;
 			    }
+			    
+			    updateScore(data.score);
 			    
                 if (data.gameState === "lost" ) {
                     updateBoard(data.cells, "lost");
                     document.getElementById("gameModal").classList.add("active");
-                    document.querySelector(".modal-content p").innerText = `You lost with ${data.points} points!`;
+                    document.querySelector(".modal-content p").innerText = `You lost with a score of ${data.score} 🥲`;
                 } else if (data.gameState === "won") {
                     updateBoard(data.cells, "won");
                     document.getElementById("gameModal").classList.add("active");
                     document.querySelector(".modal-content h2").innerText = "You Win!";
-                    document.querySelector(".modal-content p").innerText = `You won with ${data.points} points!`;
+                    document.querySelector(".modal-content p").innerText = `You won with a score of ${data.score}!`;
                 } else {
                     updateBoard(data.cells, data.gameState);
                 }
@@ -119,13 +119,13 @@
             .catch(error => console.error('Error:', error));      
 	}
     
-    function updateBoard(cells, game) {
+    function updateBoard(cells, game, force = false) {
         console.log(cells);
         cells.forEach(cell => {
             let cellElement = document.querySelector(`[data-row='${cell.row}'][data-col='${cell.col}']`);
             if (cell.isFlagged) {
                 cellElement.style.backgroundImage = "url('/Assets/Images/Game/flag.png')";
-            } else if (cell.isMine && game != "continue") {
+            } else if (cell.isMine && game != "continue" || force && cell.isMine) {
                 cellElement.style.backgroundImage = "url('/Assets/Images/Game/mine.png')";
             } else if (cell.adjacentMines > 0 && cell.isRevealed || (game != "continue" && cell.adjacentMines > 0)) {
                 cellElement.style.backgroundImage = `url('/Assets/Images/Game/Num ${cell.adjacentMines}.png')`;
@@ -144,6 +144,61 @@
             }
         });
     }
+    
+    function promptRewardClick(reward) {
+        let toast = document.getElementById('warn');
+        toast.remove();
+        toast = toast.cloneNode(true);
+        document.body.appendChild(toast);
+        toast.querySelector('.toast-body').innerText = `You're using ${reward}. Click any cell.`;
+        new bootstrap.Toast(toast, { autohide: false }).show();
+        usingReward = reward;
+    }
+    
+    function useReward(reward, row, col) {
+        fetch(`/Game/UseReward?reward=${reward}&row=${row}&col=${col}`, {
+            method: 'POST'
+        })
+            .then(response => response.json())
+            .then(data => {
+                refreshRewards(data);
+                updateScore(data.score);
+                updateBoard(data.cells, data.gameState, true);
+                if (data.cells.length < 1) {
+                    let warnToast = document.getElementById('warn');
+                    warnToast.remove();
+                    warnToast = warnToast.cloneNode(true);
+                    document.body.appendChild(warnToast);
+                    let toast = document.getElementById('error');
+                    toast.remove();
+                    toast = toast.cloneNode(true);
+                    document.body.appendChild(toast);
+                    toast.querySelector('.toast-body').innerHTML = `Using ${reward} did not affect the game.`;
+                    new bootstrap.Toast(toast, { delay: 3000 }).show();
+                }
+            })
+            .catch(error => console.error('Error:', error));
+            
+        let toast = document.getElementById('warn');
+        toast.remove();
+        toast = toast.cloneNode(true);
+        document.body.appendChild(toast);
+        toast.querySelector('.toast-body').innerText = `You used ${reward}.`;
+        new bootstrap.Toast(toast, { delay: 3000 }).show();
+    }
+    
+    function refreshRewards(data) {
+        let rewardMenu = document.getElementById("rewardMenu");
+        rewardMenu.innerHTML = 'Use a reward:';
+        data.rewards.forEach(reward => {
+            rewardMenu.innerHTML += `
+                            <button class="tag btn-img w-100" onclick="promptRewardClick('${reward}')">
+                                <img src="/Assets/Images/Buttons/BtnYellow.png"/>
+                                <span>${reward}</span>
+                            </button>
+                        `;
+        });
+    }
 
     function restartGame() {
         window.location.reload();
@@ -156,5 +211,28 @@
     function startGame() {
         window.location.href = "/Game";
     }
+
+    function updateScore(newPoints) {
+        const scoreElement = document.getElementById("score");
+        const currentScore = parseInt(scoreElement.innerText, 10) || 0;
+        const duration = 500; // Animation duration in milliseconds
+        const startTime = performance.now();
+
+        function animateScore(time) {
+            const elapsedTime = time - startTime;
+            const progress = Math.min(elapsedTime / duration, 1);
+            const animatedScore = Math.floor(currentScore + (newPoints - currentScore) * progress);
+
+            scoreElement.innerText = animatedScore;
+
+            if (progress < 1) {
+                requestAnimationFrame(animateScore);
+            }
+        }
+
+        requestAnimationFrame(animateScore);
+    }
+
+
 
 </script>
