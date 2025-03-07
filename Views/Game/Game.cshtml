@@ -45,6 +45,7 @@
 
 <script>
     let usingReward = null;
+    let startTime = null;
     document.querySelectorAll('.cell').forEach(btn => {
         btn.addEventListener('click', function(e) {
             e.preventDefault();
@@ -80,6 +81,11 @@
 			    if (data.invalid) {
 			        return;
 			    }
+
+                if (startTime === null) {
+                    startTime = new Date(data.startTime);
+                    startTimer(startTime);
+                }
 			    
 			    if (data.rewards) {
                     updateBoard(data.cells, data.gameState);
@@ -92,10 +98,12 @@
 			    
                 if (data.gameState === "lost" ) {
                     updateBoard(data.cells, "lost");
+                    stopTimer();
                     document.getElementById("gameModal").classList.add("active");
                     document.querySelector(".modal-content p").innerText = `You lost with a score of ${data.score} 🥲`;
                 } else if (data.gameState === "won") {
                     updateBoard(data.cells, "won");
+                    stopTimer();
                     document.getElementById("gameModal").classList.add("active");
                     document.querySelector(".modal-content h2").innerText = "You Win!";
                     document.querySelector(".modal-content p").innerText = `You won with a score of ${data.score}!`;
@@ -123,7 +131,7 @@
         console.log(cells);
         cells.forEach(cell => {
             let cellElement = document.querySelector(`[data-row='${cell.row}'][data-col='${cell.col}']`);
-            if (cell.isFlagged) {
+            if (cell.isFlagged && game == "continue") {
                 cellElement.style.backgroundImage = "url('/Assets/Images/Game/flag.png')";
             } else if (cell.isMine && game != "continue" || force && cell.isMine) {
                 cellElement.style.backgroundImage = "url('/Assets/Images/Game/mine.png')";
@@ -212,14 +220,35 @@
         window.location.href = "/Game";
     }
 
+    let timerInterval;
+
+    function startTimer(st) {
+        const timer = document.getElementById("timer");
+        timer.innerText = "00:00:00";
+
+        timerInterval = setInterval(() => {
+            const now = new Date();
+            const elapsed = now - st;
+            const seconds = Math.floor(elapsed / 1000) % 60;
+            const minutes = Math.floor(elapsed / 60000) % 60;
+            const hours = Math.floor(elapsed / 3600000);
+            timer.innerText = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+        }, 1000);
+    }
+
+    function stopTimer() {
+        clearInterval(timerInterval);
+    }
+
+
     function updateScore(newPoints) {
         const scoreElement = document.getElementById("score");
         const currentScore = parseInt(scoreElement.innerText, 10) || 0;
-        const duration = 500; // Animation duration in milliseconds
-        const startTime = performance.now();
+        const duration = 500;
+        const startTimeScore = performance.now();
 
         function animateScore(time) {
-            const elapsedTime = time - startTime;
+            const elapsedTime = time - startTimeScore;
             const progress = Math.min(elapsedTime / duration, 1);
             const animatedScore = Math.floor(currentScore + (newPoints - currentScore) * progress);
 

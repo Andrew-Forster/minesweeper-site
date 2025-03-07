@@ -103,7 +103,7 @@ namespace Minesweeper.Controllers
             var cells = changedCells.Cast<Cell>().ToList();
             
 
-            return Json(new { gameState, cells, score = board.Points });
+            return Json(new { gameState, cells, score = board.Points, startTime = board.StartTime });
         }        
         
         [HttpPost]
