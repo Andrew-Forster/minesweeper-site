@@ -1,9 +1,11 @@
 @model Minesweeper.Models.StartGameModel
 
 @{
-	int rows = Model.BoardSize;
-	int cols = Model.BoardSize;
+    int rows = Model.BoardSize;
+    int cols = Model.BoardSize;
+    string cellSize = 100 / cols + "%";
 }
+<link rel="stylesheet" href="/css/game.css" asp-append-version="true"/>
 
 <div id="gameModal">
     <div class="modal-content">
@@ -15,19 +17,53 @@
     </div>
 </div>
 
-<div class="game-container">
-	<div class="board" style="grid-template-columns: repeat(@cols, 30px);">
-		@for (int i = 0; i < rows; i++)
-		{
-			@for (int j = 0; j < cols; j++)
-			{
-				<button class="cell" data-row="@i" data-col="@j" onclick="revealCell(@i, @j)"></button>
-			}
-		}
-	</div>
+<div class="game-container h-100" style="--cell-size: @cellSize;">
+    <aside class="sidebar p-4">
+        <p class="tag">
+            <img src="/Assets/Images/Game/score4.png"/>
+            <span id="score">0</span>
+        </p>
+        <p class="tag">
+            <img src="/Assets/Images/Game/info4.png"/>
+            <span id="timer">00:00:00</span>
+        </p>
+        <div id="rewardMenu" class="pt-4 text-start text-white">
+        </div>
+    </aside>
+    <div class="board" style="grid-template-columns: repeat(@cols, 30px);">
+        @for (int i = 0; i < rows; i++)
+        {
+            @for (int j = 0; j < cols; j++)
+            {
+                <button class="cell" data-row="@i" data-col="@j" data-flagged="false" data-reward="false"></button>
+            }
+        }
+    </div>
+    <aside class="sidebar p-4">
+    </aside>
 </div>
-
 <script>
+    document.querySelectorAll('.cell').forEach(btn => {
+        btn.addEventListener('click', function(e) {
+            e.preventDefault();
+            const row = this.getAttribute('data-row');
+            const col = this.getAttribute('data-col');
+            revealCell(row, col);
+        });
+
+        btn.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+            if (btn.disabled) {
+                return;
+            }
+            const row = this.getAttribute('data-row');
+            const col = this.getAttribute('data-col');
+            rightClick(e, row, col);
+            let dataFlagged = btn.getAttribute('data-flagged') === 'true';
+            btn.setAttribute('data-flagged', !dataFlagged ? 'true' : 'false');
+       });
+    });
+    
     let initialBoard;
 
 	function revealCell(row, col) {
@@ -36,8 +72,30 @@
 		})
 			.then(response => response.json())
 			.then(data => {
-                console.log(data);
-				if (data.gameState === "lost" ) {
+			    if (data.invalid) {
+			        return;
+			    }
+			    
+			    if (data.rewards) {
+                    updateBoard(data.cells, data.gameState);
+                    
+                    let rewardMenu = document.getElementById("rewardMenu");
+                    rewardMenu.innerHTML = 'Use a reward:';
+                    data.rewards.forEach(reward => {
+                        rewardMenu.innerHTML += `
+                            <button class="tag btn-img w-100" onclick="useReward('${reward}')">
+                                <img src="/Assets/Images/Buttons/BtnYellow.png"/>
+                            </button>
+                        `;
+                        let rewardElement = document.createElement("span");
+                        rewardElement.innerText = reward;
+                        rewardElement.classList.add("reward");
+                        rewardMenu.appendChild(rewardElement);
+                    });
+                    
+			    }
+			    
+                if (data.gameState === "lost" ) {
                     updateBoard(initialBoard, "lost");
                     document.getElementById("gameModal").classList.add("active");
                     document.querySelector(".modal-content p").innerText = `You lost with ${data.points} points!`;
@@ -56,22 +114,41 @@
 			})
 			.catch(error => console.error('Error:', error));
 	}
+	
+	function rightClick(e, row, col) {
+	    e.preventDefault();
+        fetch(`/Game/RightClick/?row=${row}&col=${col}`, {
+            method: 'POST'
+        })
+            .then(response => response.json())
+            .then(data => {
+                updateBoard(data.cells, data.gameState);
+                if (!initialBoard) {
+                    initialBoard = data.cells;
+                }
+            })
+            .catch(error => console.error('Error:', error));      
+	}
     
     function updateBoard(cells, game) {
         cells.forEach(cell => {
             let cellElement = document.querySelector(`[data-row='${cell.row}'][data-col='${cell.col}']`);
             if (cell.isFlagged) {
-                cellElement.style.backgroundImage = "url('/assets/flag.png')";
+                cellElement.style.backgroundImage = "url('/Assets/Images/Game/flag.png')";
             } else if (cell.isMine && game != "continue") {
-                cellElement.style.backgroundImage = "url('/assets/mine.png')";
+                cellElement.style.backgroundImage = "url('/Assets/Images/Game/mine.png')";
             } else if (cell.adjacentMines > 0 && cell.isRevealed || (game != "continue" && cell.adjacentMines > 0)) {
-                cellElement.style.backgroundImage = `url('/assets/Num ${cell.adjacentMines}.png')`;
+                cellElement.style.backgroundImage = `url('/Assets/Images/Game/Num ${cell.adjacentMines}.png')`;
                 cellElement.disabled = true;
+            } else if (cell.isRevealed && cell.rewardType != 'None' && cell.rewardUsed == false || (game != "continue" && cell.rewardType != 'None')) {
+                cellElement.style.backgroundImage = `url('/Assets/Images/Game/Reward.png')`;
+                cellElement.setAttribute('data-reward', true);
             } else if (cell.isRevealed || game != "continue") {
-                cellElement.style.backgroundImage = "url('/assets/tile revealed.png')";
+                cellElement.style.backgroundImage = "url('/Assets/Images/Game/tile revealed.png')";
                 cellElement.disabled = true;
+                cellElement.setAttribute('data-reward', false);
             } else {
-                cellElement.style.backgroundImage = "url('/assets/tile.png')";
+                cellElement.style.backgroundImage = "url('/Assets/Images/Game/tile.png')";
             }
 
             if (game != "continue") {
@@ -91,88 +168,5 @@
     function startGame() {
         window.location.href = "/Game";
     }
+
 </script>
-
-<style>
-	.game-container {
-		text-align: center;
-		margin-top: 20px;
-	}
-
-	.board {
-		display: grid;
-		justify-content: center;
-	}
-
-	.cell {
-		width: 30px;
-		height: 30px;
-		border: 1px solid black;
-		background-color: lightgray;
-		font-size: 18px;
-		background-image: url('/assets/tile.png');
-		background-size: cover;
-	}
-
-    .cell:disabled {
-        cursor: not-allowed;
-    }
-
-    .cell:hover:not([disabled]) {
-        background-image: url('/assets/tile hover.png') !important;
-    }
-
-    #gameModal {
-        opacity: 0;
-        pointer-events: none;
-        z-index: -1;
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background: white;
-        padding: 20px;
-        border-radius: 10px;
-        text-align: center;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-        transition-duration: 0.5s;
-    }
-
-    body::before {
-        content: "";
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.65);
-        z-index: -1;
-        opacity: 0;
-        transition-duration: 0.5s;
-        backdrop-filter: blur(5px);
-    }
-
-    body:has(#gameModal.active)::before {
-        opacity: 1;
-        z-index: 4;
-    }
-
-    #gameModal.active {
-        opacity: 1;
-        pointer-events: all;
-        z-index: 5;
-    }
-
-    .modal-content {
-        padding: 20px 50px;
-    }
-
-    .modal-content button {
-        margin: 10px 0;
-        padding: 10px 15px;
-        font-size: 16px;
-        cursor: pointer;
-        width: 100%;
-    }
-
-</style>
