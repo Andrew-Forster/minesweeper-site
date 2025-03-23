@@ -1,4 +1,4 @@
-﻿using System.Drawing;
+﻿    using System.Drawing;
 using Microsoft.AspNetCore.Mvc;
 using Minesweeper.Filters;
 using Minesweeper.Models;
@@ -11,8 +11,8 @@ namespace Minesweeper.Controllers
     {
         private const string SessionKey = "GameBoard";
 
-        [SessionCheckFilter]
-        public IActionResult Index()
+        // [SessionCheckFilter]
+        public IActionResult? Index()
         {
             return View();
         }
@@ -22,7 +22,7 @@ namespace Minesweeper.Controllers
         /// </summary>
         /// <param name="model"></param>
         /// <returns></returns>
-        [SessionCheckFilter]
+        // [SessionCheckFilter]
         [HttpPost]
         public IActionResult Index(StartGameModel model)
         {
@@ -60,6 +60,56 @@ namespace Minesweeper.Controllers
         public JsonResult RevealCell(int row, int col)
         {
             var gameBoardJson = HttpContext.Session.GetString(SessionKey);
+
+            if (string.IsNullOrEmpty(gameBoardJson))
+            {
+                return Json(new { error = "Game not found." });
+            }
+
+            var board = JsonConvert.DeserializeObject<Board>(gameBoardJson);
+
+
+            if (board.Cells[row, col].RewardType != "None" && !board.Cells[row, col].RewardUsed && board.Shuffled)
+            {
+                board.Reveal(row + 1, col + 1);
+                HttpContext.Session.SetString(SessionKey, JsonConvert.SerializeObject(board));
+                return Json(new { gameState = board.CheckGameState().ToLower(), rewards = board.RewardsInventory, cells = new List<Cell> { board.Cells[row, col] }, score = board.Points });
+            }
+            
+            if (!board.Shuffled)
+            {
+                board.ShuffleBoard(new Point(row, col));
+            }
+
+            if (board.Cells[row, col].IsRevealed)
+            {
+                return Json(new { invalid = "Cell is already revealed." });
+            }
+
+            if (board.Cells[row, col].IsFlagged)
+            {
+                return Json(new { invalid = "Cell is flagged." });
+            }
+            
+            List<Cell> changedCells = board.Reveal(row + 1, col + 1);
+            
+            String gameState = board.CheckGameState().ToLower();
+            if (gameState is "won" or "lost")
+            {
+                var allCells = board.Cells.Cast<Cell>().ToList();
+                return Json(new { gameState, cells = allCells, score = board.Points });
+            }
+            HttpContext.Session.SetString(SessionKey, JsonConvert.SerializeObject(board));
+            var cells = changedCells.Cast<Cell>().ToList();
+            
+
+            return Json(new { gameState, cells, score = board.Points, startTime = board.StartTime });
+        }        
+        
+        [HttpPost]
+        public JsonResult RightClick(int row, int col)
+        {
+            var gameBoardJson = HttpContext.Session.GetString(SessionKey);
             String gameState = "continue";
 
 
@@ -75,25 +125,24 @@ namespace Minesweeper.Controllers
                 board.ShuffleBoard(new Point(row, col));
             }
 
-            board.Reveal(row + 1, col + 1);
-
-            if (board.Cells[row, col].IsFlagged)
-            {
-                return Json(new { error = "Cell is flagged." });
-            }
-
-            if (board.CheckGameState() == "Won")
-            {
-                gameState = "won";
-            }
-            else if (board.CheckGameState() == "Lost")
-            {
-                gameState = "lost";
-            }
+            board.Flag(row, col);
+            
             HttpContext.Session.SetString(SessionKey, JsonConvert.SerializeObject(board));
-            var cells = board.Cells.Cast<Cell>().ToList();
+            var cells = new List<Cell>();
+            cells.Add(board.Cells[row, col]);
+            return Json(new { gameState, cells, score = board.Points });
+        }
 
-            return Json(new { gameState, cells, board.Points });
+        [HttpPost]
+        public JsonResult UseReward(string reward, int row, int col)
+        {   
+            var gameBoardJson = HttpContext.Session.GetString(SessionKey);
+            var board = JsonConvert.DeserializeObject<Board>(gameBoardJson);
+            var changedCells = board.UseReward(reward, row, col);
+            HttpContext.Session.SetString(SessionKey, JsonConvert.SerializeObject(board));
+            String gameState = board.CheckGameState().ToLower();
+            
+            return Json(new { gameState, cells = changedCells, score = board.Points, rewards = board.RewardsInventory });
         }
     }
 }

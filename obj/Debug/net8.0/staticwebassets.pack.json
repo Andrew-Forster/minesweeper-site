@@ -1,552 +1,568 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Minesweeper.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Minesweeper.bundle.scp.css"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Minesweeper.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Minesweeper.h1i3raez95.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\BtnCustom.png",
-      "PackagePath": "staticwebassets\\assets\\BtnCustom.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Custom.png",
+      "PackagePath": "staticwebassets\\Assets\\Custom.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\BtnEasy.png",
-      "PackagePath": "staticwebassets\\assets\\BtnEasy.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Easy.png",
+      "PackagePath": "staticwebassets\\Assets\\Easy.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\BtnGreen.png",
-      "PackagePath": "staticwebassets\\assets\\BtnGreen.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Hard.png",
+      "PackagePath": "staticwebassets\\Assets\\Hard.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\BtnHard.png",
-      "PackagePath": "staticwebassets\\assets\\BtnHard.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Backgrounds\\bg.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Backgrounds\\bg.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\BtnHighScores.png",
-      "PackagePath": "staticwebassets\\assets\\BtnHighScores.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Backgrounds\\boardbg.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Backgrounds\\boardbg.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\BtnHover.png",
-      "PackagePath": "staticwebassets\\assets\\BtnHover.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Backgrounds\\changenameBg.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Backgrounds\\changenameBg.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\BtnMedium.png",
-      "PackagePath": "staticwebassets\\assets\\BtnMedium.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Backgrounds\\highscoresbg.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Backgrounds\\highscoresbg.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\BtnName.png",
-      "PackagePath": "staticwebassets\\assets\\BtnName.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Buttons\\BtnCustom.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Buttons\\BtnCustom.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\BtnRed.png",
-      "PackagePath": "staticwebassets\\assets\\BtnRed.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Buttons\\BtnEasy.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Buttons\\BtnEasy.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\BtnSelect.png",
-      "PackagePath": "staticwebassets\\assets\\BtnSelect.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Buttons\\BtnGreen.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Buttons\\BtnGreen.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\BtnStart.png",
-      "PackagePath": "staticwebassets\\assets\\BtnStart.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Buttons\\BtnHard.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Buttons\\BtnHard.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\BtnYellow.png",
-      "PackagePath": "staticwebassets\\assets\\BtnYellow.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Buttons\\BtnHighScores.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Buttons\\BtnHighScores.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Custom.png",
-      "PackagePath": "staticwebassets\\assets\\Custom.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Buttons\\BtnHover.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Buttons\\BtnHover.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Defuse.gif",
-      "PackagePath": "staticwebassets\\assets\\Defuse.gif"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Buttons\\BtnMedium.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Buttons\\BtnMedium.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Easy.png",
-      "PackagePath": "staticwebassets\\assets\\Easy.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Buttons\\BtnName.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Buttons\\BtnName.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Explode.gif",
-      "PackagePath": "staticwebassets\\assets\\Explode.gif"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Buttons\\BtnRed.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Buttons\\BtnRed.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Exploded.png",
-      "PackagePath": "staticwebassets\\assets\\Exploded.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Buttons\\BtnSelect.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Buttons\\BtnSelect.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Flag.png",
-      "PackagePath": "staticwebassets\\assets\\Flag.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Buttons\\BtnStart.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Buttons\\BtnStart.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Hard.png",
-      "PackagePath": "staticwebassets\\assets\\Hard.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Buttons\\BtnYellow.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Buttons\\BtnYellow.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Medium.png",
-      "PackagePath": "staticwebassets\\assets\\Medium.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Game\\Defuse.gif",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Game\\Defuse.gif"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Mine.png",
-      "PackagePath": "staticwebassets\\assets\\Mine.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Game\\Explode.gif",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Game\\Explode.gif"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Mute.png",
-      "PackagePath": "staticwebassets\\assets\\Mute.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Game\\Exploded.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Game\\Exploded.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\MuteAll.png",
-      "PackagePath": "staticwebassets\\assets\\MuteAll.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Game\\Flag.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Game\\Flag.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Num 1.png",
-      "PackagePath": "staticwebassets\\assets\\Num 1.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Game\\Mine.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Game\\Mine.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Num 2.png",
-      "PackagePath": "staticwebassets\\assets\\Num 2.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Game\\Num 1.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Game\\Num 1.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Num 3.png",
-      "PackagePath": "staticwebassets\\assets\\Num 3.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Game\\Num 2.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Game\\Num 2.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Num 4.png",
-      "PackagePath": "staticwebassets\\assets\\Num 4.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Game\\Num 3.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Game\\Num 3.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Num 5.png",
-      "PackagePath": "staticwebassets\\assets\\Num 5.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Game\\Num 4.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Game\\Num 4.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Num 6.png",
-      "PackagePath": "staticwebassets\\assets\\Num 6.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Game\\Num 5.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Game\\Num 5.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Num 7.png",
-      "PackagePath": "staticwebassets\\assets\\Num 7.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Game\\Num 6.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Game\\Num 6.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Num 8.png",
-      "PackagePath": "staticwebassets\\assets\\Num 8.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Game\\Num 7.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Game\\Num 7.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Old\\Bomb.png",
-      "PackagePath": "staticwebassets\\assets\\Old\\Bomb.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Game\\Num 8.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Game\\Num 8.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Old\\Gold.png",
-      "PackagePath": "staticwebassets\\assets\\Old\\Gold.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Game\\Reward.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Game\\Reward.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Old\\Number 1.png",
-      "PackagePath": "staticwebassets\\assets\\Old\\Number 1.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Game\\Tile Hover.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Game\\Tile Hover.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Old\\Number 2.png",
-      "PackagePath": "staticwebassets\\assets\\Old\\Number 2.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Game\\Tile Revealed.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Game\\Tile Revealed.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Old\\Number 3.png",
-      "PackagePath": "staticwebassets\\assets\\Old\\Number 3.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Game\\Tile.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Game\\Tile.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Old\\Number 4.png",
-      "PackagePath": "staticwebassets\\assets\\Old\\Number 4.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Game\\info1.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Game\\info1.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Old\\Number 5.png",
-      "PackagePath": "staticwebassets\\assets\\Old\\Number 5.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Game\\info2.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Game\\info2.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Old\\Number 6.png",
-      "PackagePath": "staticwebassets\\assets\\Old\\Number 6.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Game\\info3.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Game\\info3.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Old\\Number 7.png",
-      "PackagePath": "staticwebassets\\assets\\Old\\Number 7.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Game\\info4.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Game\\info4.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Old\\Number 8.png",
-      "PackagePath": "staticwebassets\\assets\\Old\\Number 8.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Game\\score1.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Game\\score1.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Old\\Skull.png",
-      "PackagePath": "staticwebassets\\assets\\Old\\Skull.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Game\\score2.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Game\\score2.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Old\\Tile 1.png",
-      "PackagePath": "staticwebassets\\assets\\Old\\Tile 1.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Game\\score3.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Game\\score3.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Old\\Tile 2.png",
-      "PackagePath": "staticwebassets\\assets\\Old\\Tile 2.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Game\\score4.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Game\\score4.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Old\\Tile Flat.png",
-      "PackagePath": "staticwebassets\\assets\\Old\\Tile Flat.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Medium.png",
+      "PackagePath": "staticwebassets\\Assets\\Medium.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Old\\icon.ico",
-      "PackagePath": "staticwebassets\\assets\\Old\\icon.ico"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Mute.png",
+      "PackagePath": "staticwebassets\\Assets\\Mute.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Reward.png",
-      "PackagePath": "staticwebassets\\assets\\Reward.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\MuteAll.png",
+      "PackagePath": "staticwebassets\\Assets\\MuteAll.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Sound.png",
-      "PackagePath": "staticwebassets\\assets\\Sound.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Old\\Bomb.png",
+      "PackagePath": "staticwebassets\\Assets\\Old\\Bomb.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\SoundEffects\\MainButton.mp3",
-      "PackagePath": "staticwebassets\\assets\\SoundEffects\\MainButton.mp3"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Old\\Gold.png",
+      "PackagePath": "staticwebassets\\Assets\\Old\\Gold.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\SoundEffects\\Reward.mp3",
-      "PackagePath": "staticwebassets\\assets\\SoundEffects\\Reward.mp3"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Old\\Number 1.png",
+      "PackagePath": "staticwebassets\\Assets\\Old\\Number 1.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\SoundEffects\\defuse.mp3",
-      "PackagePath": "staticwebassets\\assets\\SoundEffects\\defuse.mp3"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Old\\Number 2.png",
+      "PackagePath": "staticwebassets\\Assets\\Old\\Number 2.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\SoundEffects\\explosion.mp3",
-      "PackagePath": "staticwebassets\\assets\\SoundEffects\\explosion.mp3"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Old\\Number 3.png",
+      "PackagePath": "staticwebassets\\Assets\\Old\\Number 3.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\SoundEffects\\flag.mp3",
-      "PackagePath": "staticwebassets\\assets\\SoundEffects\\flag.mp3"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Old\\Number 4.png",
+      "PackagePath": "staticwebassets\\Assets\\Old\\Number 4.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\SoundEffects\\gameplay.mp3",
-      "PackagePath": "staticwebassets\\assets\\SoundEffects\\gameplay.mp3"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Old\\Number 5.png",
+      "PackagePath": "staticwebassets\\Assets\\Old\\Number 5.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\SoundEffects\\lost.mp3",
-      "PackagePath": "staticwebassets\\assets\\SoundEffects\\lost.mp3"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Old\\Number 6.png",
+      "PackagePath": "staticwebassets\\Assets\\Old\\Number 6.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\SoundEffects\\mainMenu.mp3",
-      "PackagePath": "staticwebassets\\assets\\SoundEffects\\mainMenu.mp3"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Old\\Number 7.png",
+      "PackagePath": "staticwebassets\\Assets\\Old\\Number 7.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\SoundEffects\\tileclick.mp3",
-      "PackagePath": "staticwebassets\\assets\\SoundEffects\\tileclick.mp3"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Old\\Number 8.png",
+      "PackagePath": "staticwebassets\\Assets\\Old\\Number 8.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\SoundEffects\\victory.mp3",
-      "PackagePath": "staticwebassets\\assets\\SoundEffects\\victory.mp3"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Old\\Skull.png",
+      "PackagePath": "staticwebassets\\Assets\\Old\\Skull.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Tile Hover.png",
-      "PackagePath": "staticwebassets\\assets\\Tile Hover.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Old\\Tile 1.png",
+      "PackagePath": "staticwebassets\\Assets\\Old\\Tile 1.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Tile Revealed.png",
-      "PackagePath": "staticwebassets\\assets\\Tile Revealed.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Old\\Tile 2.png",
+      "PackagePath": "staticwebassets\\Assets\\Old\\Tile 2.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\Tile.png",
-      "PackagePath": "staticwebassets\\assets\\Tile.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Old\\Tile Flat.png",
+      "PackagePath": "staticwebassets\\Assets\\Old\\Tile Flat.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\banner.png",
-      "PackagePath": "staticwebassets\\assets\\banner.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Old\\icon.ico",
+      "PackagePath": "staticwebassets\\Assets\\Old\\icon.ico"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\bg.png",
-      "PackagePath": "staticwebassets\\assets\\bg.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sound.png",
+      "PackagePath": "staticwebassets\\Assets\\Sound.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\boardbg.png",
-      "PackagePath": "staticwebassets\\assets\\boardbg.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\Defuse.mp3",
+      "PackagePath": "staticwebassets\\Assets\\Sounds\\Defuse.mp3"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\changenameBg.png",
-      "PackagePath": "staticwebassets\\assets\\changenameBg.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\Explode.mp3",
+      "PackagePath": "staticwebassets\\Assets\\Sounds\\Explode.mp3"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\highscoresbg.png",
-      "PackagePath": "staticwebassets\\assets\\highscoresbg.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\Flag.mp3",
+      "PackagePath": "staticwebassets\\Assets\\Sounds\\Flag.mp3"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\info1.png",
-      "PackagePath": "staticwebassets\\assets\\info1.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\Gameplay.mp3",
+      "PackagePath": "staticwebassets\\Assets\\Sounds\\Gameplay.mp3"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\info2.png",
-      "PackagePath": "staticwebassets\\assets\\info2.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\Lose.mp3",
+      "PackagePath": "staticwebassets\\Assets\\Sounds\\Lose.mp3"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\info3.png",
-      "PackagePath": "staticwebassets\\assets\\info3.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\MainButton.mp3",
+      "PackagePath": "staticwebassets\\Assets\\Sounds\\MainButton.mp3"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\info4.png",
-      "PackagePath": "staticwebassets\\assets\\info4.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\MainMenu.mp3",
+      "PackagePath": "staticwebassets\\Assets\\Sounds\\MainMenu.mp3"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\logo.ico",
-      "PackagePath": "staticwebassets\\assets\\logo.ico"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\Reward.mp3",
+      "PackagePath": "staticwebassets\\Assets\\Sounds\\Reward.mp3"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\logo.jpeg",
-      "PackagePath": "staticwebassets\\assets\\logo.jpeg"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\TileClick.mp3",
+      "PackagePath": "staticwebassets\\Assets\\Sounds\\TileClick.mp3"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\score1.png",
-      "PackagePath": "staticwebassets\\assets\\score1.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\Win.mp3",
+      "PackagePath": "staticwebassets\\Assets\\Sounds\\Win.mp3"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\score2.png",
-      "PackagePath": "staticwebassets\\assets\\score2.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\banner.png",
+      "PackagePath": "staticwebassets\\Assets\\banner.png"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\score3.png",
-      "PackagePath": "staticwebassets\\assets\\score3.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\logo.ico",
+      "PackagePath": "staticwebassets\\Assets\\logo.ico"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\assets\\score4.png",
-      "PackagePath": "staticwebassets\\assets\\score4.png"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\logo.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\logo.jpeg"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Azonix.otf",
+      "PackagePath": "staticwebassets\\Azonix.otf"
+    },
+    {
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\css\\game.css",
+      "PackagePath": "staticwebassets\\css\\game.css"
+    },
+    {
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\js\\sfx.js",
+      "PackagePath": "staticwebassets\\js\\sfx.js"
+    },
+    {
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Minesweeper.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Minesweeper.Microsoft.AspNetCore.StaticWebAssets.props",
