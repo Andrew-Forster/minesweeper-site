@@ -9,20 +9,8 @@
       "PackagePath": "staticwebassets\\Assets\\Custom.png"
     },
     {
-      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Defuse.gif",
-      "PackagePath": "staticwebassets\\Assets\\Defuse.gif"
-    },
-    {
       "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Easy.png",
       "PackagePath": "staticwebassets\\Assets\\Easy.png"
-    },
-    {
-      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Explode.gif",
-      "PackagePath": "staticwebassets\\Assets\\Explode.gif"
-    },
-    {
-      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Exploded.png",
-      "PackagePath": "staticwebassets\\Assets\\Exploded.png"
     },
     {
       "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Hard.png",
@@ -91,6 +79,18 @@
     {
       "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Buttons\\BtnYellow.png",
       "PackagePath": "staticwebassets\\Assets\\Images\\Buttons\\BtnYellow.png"
+    },
+    {
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Game\\Defuse.gif",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Game\\Defuse.gif"
+    },
+    {
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Game\\Explode.gif",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Game\\Explode.gif"
+    },
+    {
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Game\\Exploded.png",
+      "PackagePath": "staticwebassets\\Assets\\Images\\Game\\Exploded.png"
     },
     {
       "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Game\\Flag.png",
@@ -257,44 +257,44 @@
       "PackagePath": "staticwebassets\\Assets\\Sound.png"
     },
     {
-      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\SoundEffects\\MainButton.mp3",
-      "PackagePath": "staticwebassets\\Assets\\SoundEffects\\MainButton.mp3"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\Defuse.mp3",
+      "PackagePath": "staticwebassets\\Assets\\Sounds\\Defuse.mp3"
     },
     {
-      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\SoundEffects\\Reward.mp3",
-      "PackagePath": "staticwebassets\\Assets\\SoundEffects\\Reward.mp3"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\Explode.mp3",
+      "PackagePath": "staticwebassets\\Assets\\Sounds\\Explode.mp3"
     },
     {
-      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\SoundEffects\\defuse.mp3",
-      "PackagePath": "staticwebassets\\Assets\\SoundEffects\\defuse.mp3"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\Flag.mp3",
+      "PackagePath": "staticwebassets\\Assets\\Sounds\\Flag.mp3"
     },
     {
-      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\SoundEffects\\explosion.mp3",
-      "PackagePath": "staticwebassets\\Assets\\SoundEffects\\explosion.mp3"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\Gameplay.mp3",
+      "PackagePath": "staticwebassets\\Assets\\Sounds\\Gameplay.mp3"
     },
     {
-      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\SoundEffects\\flag.mp3",
-      "PackagePath": "staticwebassets\\Assets\\SoundEffects\\flag.mp3"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\Lose.mp3",
+      "PackagePath": "staticwebassets\\Assets\\Sounds\\Lose.mp3"
     },
     {
-      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\SoundEffects\\gameplay.mp3",
-      "PackagePath": "staticwebassets\\Assets\\SoundEffects\\gameplay.mp3"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\MainButton.mp3",
+      "PackagePath": "staticwebassets\\Assets\\Sounds\\MainButton.mp3"
     },
     {
-      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\SoundEffects\\lost.mp3",
-      "PackagePath": "staticwebassets\\Assets\\SoundEffects\\lost.mp3"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\MainMenu.mp3",
+      "PackagePath": "staticwebassets\\Assets\\Sounds\\MainMenu.mp3"
     },
     {
-      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\SoundEffects\\mainMenu.mp3",
-      "PackagePath": "staticwebassets\\Assets\\SoundEffects\\mainMenu.mp3"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\Reward.mp3",
+      "PackagePath": "staticwebassets\\Assets\\Sounds\\Reward.mp3"
     },
     {
-      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\SoundEffects\\tileclick.mp3",
-      "PackagePath": "staticwebassets\\Assets\\SoundEffects\\tileclick.mp3"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\TileClick.mp3",
+      "PackagePath": "staticwebassets\\Assets\\Sounds\\TileClick.mp3"
     },
     {
-      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\SoundEffects\\victory.mp3",
-      "PackagePath": "staticwebassets\\Assets\\SoundEffects\\victory.mp3"
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\Win.mp3",
+      "PackagePath": "staticwebassets\\Assets\\Sounds\\Win.mp3"
     },
     {
       "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\banner.png",
@@ -323,6 +323,10 @@
     {
       "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\js\\sfx.js",
+      "PackagePath": "staticwebassets\\js\\sfx.js"
     },
     {
       "Id": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\js\\site.js",

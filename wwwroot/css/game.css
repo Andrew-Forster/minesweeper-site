@@ -22,13 +22,21 @@
 
 .tag {
     position: relative;
+    max-width: 275px;
+}
+
+.tag.btn-free {
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+    width: 200px;
 }
 
 .tag span {
     font-size: 16px;
     color: #dedede;
     position: absolute;
-    left: 20px;
+    left: 25px;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -120,4 +128,13 @@ body:has(#gameModal.active)::before {
     font-size: 16px;
     cursor: pointer;
     width: 100%;
+}
+
+.gameOverImg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    object-fit: cover;
 }

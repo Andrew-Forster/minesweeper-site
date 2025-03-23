@@ -8,17 +8,24 @@
 <link rel="stylesheet" href="/css/game.css" asp-append-version="true"/>
 
 <div id="gameModal">
-    <div class="modal-content">
+    <div class="modal-content align-items-center">
         <h2>Game Over!</h2>
         <p id="gamePoints"></p>
-        <button class="btn btn-primary" onclick="restartGame()">Play Again?</button>
-        <button class="btn btn-secondary" onclick="startGame()">Adjust Difficulty</button>
-        <button class="btn btn-warning" onclick="viewBoard()">View Board</button>
+        <button class="tag btn-img w-100 m-0 py-1" onclick="restartGame()">
+            <img src="/Assets/Images/Buttons/BtnYellow.png"/>
+            <span class="ms-3">Play Again?</span>
+        </button>        <button class="tag btn-img w-100 m-0 py-1" onclick="startGame()">
+            <img src="/Assets/Images/Buttons/BtnGreen.png"/>
+            <span class="ms-3">Adjust Difficulty</span>
+        </button>        <button class="tag btn-img w-100 m-0 py-1" onclick="viewBoard()">
+            <img src="/Assets/Images/Buttons/BtnRed.png"/>
+            <span class="ms-3">View Board</span>
+        </button>
     </div>
 </div>
 
-<div class="game-container h-100">
-    <aside class="sidebar p-4">
+<div class="game-container h-100 flex-column flex-md-row px-3 px-md-0">
+    <aside class="sidebar m-4 me-5">
         <p class="tag">
             <img src="/Assets/Images/Game/score4.png"/>
             <span id="score">0</span>
@@ -27,8 +34,10 @@
             <img src="/Assets/Images/Game/info4.png"/>
             <span id="timer">00:00:00</span>
         </p>
-        <div id="rewardMenu" class="pt-4 text-start text-white">
-        </div>
+        <a class="tag btn-free p-24" href="/">
+            <img src="/Assets/Images/Buttons/BtnRed.png"/>
+            <span class="w-100 start-0">Go Back</span>
+        </a>
     </aside>
     <div class="board" style="grid-template-columns: repeat(@cols, @cellSize);">
         @for (int i = 0; i < rows; i++)
@@ -39,7 +48,9 @@
             }
         }
     </div>
-    <aside class="sidebar p-4">
+    <aside class="sidebar m-4 ms-5">
+        <div id="rewardMenu" class="pt-4 text-start text-white">
+        </div>
     </aside>
 </div>
 
@@ -77,41 +88,50 @@
 			method: 'POST'
 		})
 			.then(response => response.json())
-			.then(data => {
-			    if (data.invalid) {
-			        return;
-			    }
+			.then(async data => {
+                if (data.invalid) {
+                    return;
+                }
 
                 if (startTime === null) {
                     startTime = new Date(data.startTime);
                     startTimer(startTime);
                 }
-			    
-			    if (data.rewards) {
+
+                if (data.rewards) {
                     updateBoard(data.cells, data.gameState);
-                    
                     refreshRewards(data);
+                    sfxManager.play("Reward");
                     return;
-			    }
-			    
-			    updateScore(data.score);
-			    
-                if (data.gameState === "lost" ) {
-                    updateBoard(data.cells, "lost");
-                    stopTimer();
-                    document.getElementById("gameModal").classList.add("active");
-                    document.querySelector(".modal-content p").innerText = `You lost with a score of ${data.score} 🥲`;
-                } else if (data.gameState === "won") {
-                    updateBoard(data.cells, "won");
-                    stopTimer();
-                    document.getElementById("gameModal").classList.add("active");
-                    document.querySelector(".modal-content h2").innerText = "You Win!";
-                    document.querySelector(".modal-content p").innerText = `You won with a score of ${data.score}!`;
-                } else {
-                    updateBoard(data.cells, data.gameState);
                 }
 
-			})
+                updateScore(data.score);
+
+                if (data.gameState === "lost" || data.gameState === "won") {
+                    stopTimer();
+                    const cellEles = document.querySelectorAll('.cell');
+                    cellEles.forEach(cell => cell.disabled = true);
+                    document.getElementById("rewardMenu").innerHTML = '';
+                    const animationType = data.gameState === "lost" ? "Explode" : "Defuse";
+                    const sound = data.gameState === "lost" ? "Lose" : "Win";
+                    const modalTitle = data.gameState === "lost" ? "You lost" : "You Win!";
+                    const modalMessage = data.gameState === "lost"
+                        ? `You lost with a score of ${data.score} 🥲`
+                        : `You won with a score of ${data.score}!`;
+
+                    await gameOverAnimation(data.cells, animationType);
+                    sfxManager.play(sound);
+                    updateBoard(data.cells, data.gameState);
+                    document.getElementById("gameModal").classList.add("active");
+                    document.querySelector(".modal-content h2").innerText = modalTitle;
+                    document.querySelector(".modal-content p").innerText = modalMessage;
+                } else {
+                    updateBoard(data.cells, data.gameState);
+                    sfxManager.play("Click");
+                }
+
+
+            })
 			.catch(error => console.error('Error:', error));
 	}
 	
@@ -123,12 +143,12 @@
             .then(response => response.json())
             .then(data => {
                 updateBoard(data.cells, data.gameState);
+                sfxManager.play("Flag");
             })
             .catch(error => console.error('Error:', error));      
 	}
     
     function updateBoard(cells, game, force = false) {
-        console.log(cells);
         cells.forEach(cell => {
             let cellElement = document.querySelector(`[data-row='${cell.row}'][data-col='${cell.col}']`);
             if (cell.isFlagged && game == "continue") {
@@ -154,6 +174,7 @@
     }
     
     function promptRewardClick(reward) {
+        sfxManager.play("Button");
         let toast = document.getElementById('warn');
         toast.remove();
         toast = toast.cloneNode(true);
@@ -164,6 +185,7 @@
     }
     
     function useReward(reward, row, col) {
+        sfxManager.play("Reward");
         fetch(`/Game/UseReward?reward=${reward}&row=${row}&col=${col}`, {
             method: 'POST'
         })
@@ -206,6 +228,10 @@
                             </button>
                         `;
         });
+        
+        if (data.rewards.length < 1) {
+            rewardMenu.innerHTML = '';
+        }
     }
 
     function restartGame() {
@@ -261,6 +287,37 @@
 
         requestAnimationFrame(animateScore);
     }
+
+    async function gameOverAnimation(cells, type) {
+        let mineCells = cells.filter(cell => cell.isMine);
+        const totalMines = mineCells.length;
+        const maxDuration = 3000; // 3 seconds
+        const interval = totalMines > 1 ? maxDuration / (totalMines - 1) : 0;
+
+        // Shuffle mines randomly
+        mineCells = mineCells.sort(() => Math.random() - 0.5);
+
+        mineCells.forEach((cell, index) => {
+            setTimeout(() => {
+                const cellEle = document.querySelector(`[data-row='${cell.row}'][data-col='${cell.col}']`);
+                if (!cellEle) return;
+                sfxManager.play(type);
+                
+                const img = document.createElement('img');
+                img.classList.add('gameOverImg');
+                img.src = `/Assets/Images/Game/${type}.gif?${new Date().getTime()}`;
+                cellEle.appendChild(img);
+
+                setTimeout(() => {
+                    img.src = `/Assets/Images/Game/Exploded.png`;
+                }, 700);
+            }, index * interval);
+        });
+
+        await new Promise(resolve => setTimeout(resolve, maxDuration + 1000));
+    }
+
+
 
 
 

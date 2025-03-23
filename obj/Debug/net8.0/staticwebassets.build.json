@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/ekuoZvGk0bOFnXaYK+kB9q0yAs55BwzQa96YZ2qYfE=",
+  "Hash": "ifQDVBPH6Cf6VToFIWreBVhJznxyhe/zWxu0ue/vYZU=",
   "Source": "Minesweeper",
   "BasePath": "_content/Minesweeper",
   "Mode": "Default",
@@ -101,27 +101,6 @@
       "OriginalItemSpec": "wwwroot\\Assets\\Custom.png"
     },
     {
-      "Identity": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Defuse.gif",
-      "SourceId": "Minesweeper",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\",
-      "BasePath": "_content/Minesweeper",
-      "RelativePath": "Assets/Defuse#[.{fingerprint}]?.gif",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "zmv4dbu0kg",
-      "Integrity": "1W0SntERKNnj0q/ZVOTQKxdUW4sr+8jPFb0YJ5I1zU0=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Assets\\Defuse.gif"
-    },
-    {
       "Identity": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Easy.png",
       "SourceId": "Minesweeper",
       "SourceType": "Discovered",
@@ -141,48 +120,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Assets\\Easy.png"
-    },
-    {
-      "Identity": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Explode.gif",
-      "SourceId": "Minesweeper",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\",
-      "BasePath": "_content/Minesweeper",
-      "RelativePath": "Assets/Explode#[.{fingerprint}]?.gif",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "b4tzg0b3ez",
-      "Integrity": "K/7NQRgM/voL0wUurdo5wFWc5ck9Fzxl+wG0R3Ph2L0=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Assets\\Explode.gif"
-    },
-    {
-      "Identity": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Exploded.png",
-      "SourceId": "Minesweeper",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\",
-      "BasePath": "_content/Minesweeper",
-      "RelativePath": "Assets/Exploded#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "8f4h5jk0lv",
-      "Integrity": "pMFEj13LI2tqwYT2ooJ8vK7dKMxe1Un6B+hi/J18yHg=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Assets\\Exploded.png"
     },
     {
       "Identity": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Hard.png",
@@ -540,6 +477,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Assets\\Images\\Buttons\\BtnYellow.png"
+    },
+    {
+      "Identity": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Game\\Defuse.gif",
+      "SourceId": "Minesweeper",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\",
+      "BasePath": "_content/Minesweeper",
+      "RelativePath": "Assets/Images/Game/Defuse#[.{fingerprint}]?.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zmv4dbu0kg",
+      "Integrity": "1W0SntERKNnj0q/ZVOTQKxdUW4sr+8jPFb0YJ5I1zU0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Assets\\Images\\Game\\Defuse.gif"
+    },
+    {
+      "Identity": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Game\\Explode.gif",
+      "SourceId": "Minesweeper",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\",
+      "BasePath": "_content/Minesweeper",
+      "RelativePath": "Assets/Images/Game/Explode#[.{fingerprint}]?.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b4tzg0b3ez",
+      "Integrity": "K/7NQRgM/voL0wUurdo5wFWc5ck9Fzxl+wG0R3Ph2L0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Assets\\Images\\Game\\Explode.gif"
+    },
+    {
+      "Identity": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Game\\Exploded.png",
+      "SourceId": "Minesweeper",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\",
+      "BasePath": "_content/Minesweeper",
+      "RelativePath": "Assets/Images/Game/Exploded#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8f4h5jk0lv",
+      "Integrity": "pMFEj13LI2tqwYT2ooJ8vK7dKMxe1Un6B+hi/J18yHg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Assets\\Images\\Game\\Exploded.png"
     },
     {
       "Identity": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Game\\Flag.png",
@@ -1445,12 +1445,12 @@
       "OriginalItemSpec": "wwwroot\\Assets\\Sound.png"
     },
     {
-      "Identity": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\SoundEffects\\defuse.mp3",
+      "Identity": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\Defuse.mp3",
       "SourceId": "Minesweeper",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\",
       "BasePath": "_content/Minesweeper",
-      "RelativePath": "Assets/SoundEffects/defuse#[.{fingerprint}]?.mp3",
+      "RelativePath": "Assets/Sounds/Defuse#[.{fingerprint}]?.mp3",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1463,15 +1463,15 @@
       "Integrity": "Y9swKVNZlFsHob91350NPc/NLAUB76jgh3bXJGM9FCg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Assets\\SoundEffects\\defuse.mp3"
+      "OriginalItemSpec": "wwwroot\\Assets\\Sounds\\Defuse.mp3"
     },
     {
-      "Identity": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\SoundEffects\\explosion.mp3",
+      "Identity": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\Explode.mp3",
       "SourceId": "Minesweeper",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\",
       "BasePath": "_content/Minesweeper",
-      "RelativePath": "Assets/SoundEffects/explosion#[.{fingerprint}]?.mp3",
+      "RelativePath": "Assets/Sounds/Explode#[.{fingerprint}]?.mp3",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1484,15 +1484,15 @@
       "Integrity": "UWMlAczgaAAuvi8ZecmdOnxoQDDcJhRwaxyvrJvJZdk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Assets\\SoundEffects\\explosion.mp3"
+      "OriginalItemSpec": "wwwroot\\Assets\\Sounds\\Explode.mp3"
     },
     {
-      "Identity": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\SoundEffects\\flag.mp3",
+      "Identity": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\Flag.mp3",
       "SourceId": "Minesweeper",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\",
       "BasePath": "_content/Minesweeper",
-      "RelativePath": "Assets/SoundEffects/flag#[.{fingerprint}]?.mp3",
+      "RelativePath": "Assets/Sounds/Flag#[.{fingerprint}]?.mp3",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1505,15 +1505,15 @@
       "Integrity": "6lwhB4mDwRANI9a4kcswNzFr7pC9uR/19p2SZWuW1aQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Assets\\SoundEffects\\flag.mp3"
+      "OriginalItemSpec": "wwwroot\\Assets\\Sounds\\Flag.mp3"
     },
     {
-      "Identity": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\SoundEffects\\gameplay.mp3",
+      "Identity": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\Gameplay.mp3",
       "SourceId": "Minesweeper",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\",
       "BasePath": "_content/Minesweeper",
-      "RelativePath": "Assets/SoundEffects/gameplay#[.{fingerprint}]?.mp3",
+      "RelativePath": "Assets/Sounds/Gameplay#[.{fingerprint}]?.mp3",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1526,15 +1526,15 @@
       "Integrity": "7S2fyQFzZMr/7cOnjWfuhuS8j/w49k0CttdDjjSvABU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Assets\\SoundEffects\\gameplay.mp3"
+      "OriginalItemSpec": "wwwroot\\Assets\\Sounds\\Gameplay.mp3"
     },
     {
-      "Identity": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\SoundEffects\\lost.mp3",
+      "Identity": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\Lose.mp3",
       "SourceId": "Minesweeper",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\",
       "BasePath": "_content/Minesweeper",
-      "RelativePath": "Assets/SoundEffects/lost#[.{fingerprint}]?.mp3",
+      "RelativePath": "Assets/Sounds/Lose#[.{fingerprint}]?.mp3",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1547,15 +1547,15 @@
       "Integrity": "aA+tAFqCVWsd2x1kSt3bAfuOZn86B+zYQsSP75qRAg8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Assets\\SoundEffects\\lost.mp3"
+      "OriginalItemSpec": "wwwroot\\Assets\\Sounds\\Lose.mp3"
     },
     {
-      "Identity": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\SoundEffects\\MainButton.mp3",
+      "Identity": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\MainButton.mp3",
       "SourceId": "Minesweeper",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\",
       "BasePath": "_content/Minesweeper",
-      "RelativePath": "Assets/SoundEffects/MainButton#[.{fingerprint}]?.mp3",
+      "RelativePath": "Assets/Sounds/MainButton#[.{fingerprint}]?.mp3",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1568,15 +1568,15 @@
       "Integrity": "/il+LLcIBmi5chouZJqCEdIYjRKbevom0Ji23jKq8EM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Assets\\SoundEffects\\MainButton.mp3"
+      "OriginalItemSpec": "wwwroot\\Assets\\Sounds\\MainButton.mp3"
     },
     {
-      "Identity": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\SoundEffects\\mainMenu.mp3",
+      "Identity": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\MainMenu.mp3",
       "SourceId": "Minesweeper",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\",
       "BasePath": "_content/Minesweeper",
-      "RelativePath": "Assets/SoundEffects/mainMenu#[.{fingerprint}]?.mp3",
+      "RelativePath": "Assets/Sounds/MainMenu#[.{fingerprint}]?.mp3",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1589,15 +1589,15 @@
       "Integrity": "2obO62jXNxkL4l5zcnpScRUlNZp/VjT9atCJ2B7BMYw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Assets\\SoundEffects\\mainMenu.mp3"
+      "OriginalItemSpec": "wwwroot\\Assets\\Sounds\\MainMenu.mp3"
     },
     {
-      "Identity": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\SoundEffects\\Reward.mp3",
+      "Identity": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\Reward.mp3",
       "SourceId": "Minesweeper",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\",
       "BasePath": "_content/Minesweeper",
-      "RelativePath": "Assets/SoundEffects/Reward#[.{fingerprint}]?.mp3",
+      "RelativePath": "Assets/Sounds/Reward#[.{fingerprint}]?.mp3",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1610,15 +1610,15 @@
       "Integrity": "iYAxw5Rf3vP948AFO6iZpQVBvP9yL/iG9gAKWfqc/f0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Assets\\SoundEffects\\Reward.mp3"
+      "OriginalItemSpec": "wwwroot\\Assets\\Sounds\\Reward.mp3"
     },
     {
-      "Identity": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\SoundEffects\\tileclick.mp3",
+      "Identity": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\TileClick.mp3",
       "SourceId": "Minesweeper",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\",
       "BasePath": "_content/Minesweeper",
-      "RelativePath": "Assets/SoundEffects/tileclick#[.{fingerprint}]?.mp3",
+      "RelativePath": "Assets/Sounds/TileClick#[.{fingerprint}]?.mp3",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1631,15 +1631,15 @@
       "Integrity": "Amji9hOtJveumg4xb4ulHVerGnYbQ8KbfVkOKQfUs7Y=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Assets\\SoundEffects\\tileclick.mp3"
+      "OriginalItemSpec": "wwwroot\\Assets\\Sounds\\TileClick.mp3"
     },
     {
-      "Identity": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\SoundEffects\\victory.mp3",
+      "Identity": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\Win.mp3",
       "SourceId": "Minesweeper",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\",
       "BasePath": "_content/Minesweeper",
-      "RelativePath": "Assets/SoundEffects/victory#[.{fingerprint}]?.mp3",
+      "RelativePath": "Assets/Sounds/Win#[.{fingerprint}]?.mp3",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1652,7 +1652,7 @@
       "Integrity": "CvMMYIIajh1kI5k0e7GZqarxUFeWsd41uO84PNHTW4o=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Assets\\SoundEffects\\victory.mp3"
+      "OriginalItemSpec": "wwwroot\\Assets\\Sounds\\Win.mp3"
     },
     {
       "Identity": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Azonix.otf",
@@ -1690,8 +1690,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "edkam9se37",
-      "Integrity": "ol8nMPBB758IIXytS299vLuZyiwTYdB4ngo1bJpiHzk=",
+      "Fingerprint": "pbzmyg8z8o",
+      "Integrity": "q8E6Ep+bcOXG2oruncWa8adGerlzBnln7Rmy5lzWN+8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\game.css"
@@ -1711,8 +1711,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "bnc3525w2y",
-      "Integrity": "xx/lbXg50mZ/zm+aY9XwiSW+3DZgxyeoVTT97vRFhoA=",
+      "Fingerprint": "nv1ablplzu",
+      "Integrity": "/agQnRaYosSRK8TNkhI0TczvS9zpF4cSlNkULu8oKL0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1737,6 +1737,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\js\\sfx.js",
+      "SourceId": "Minesweeper",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\",
+      "BasePath": "_content/Minesweeper",
+      "RelativePath": "js/sfx#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mhb7iw1xqm",
+      "Integrity": "6lcOjdKHthY7zILe8g6crFi3m7qSfAAYk9OpIYhZ1Tg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\sfx.js"
     },
     {
       "Identity": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\js\\site.js",
@@ -3123,88 +3144,6 @@
       ]
     },
     {
-      "Route": "Assets/Defuse.gif",
-      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Defuse.gif",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "7691"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/gif"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"1W0SntERKNnj0q/ZVOTQKxdUW4sr+8jPFb0YJ5I1zU0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 22:15:57 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-1W0SntERKNnj0q/ZVOTQKxdUW4sr+8jPFb0YJ5I1zU0="
-        }
-      ]
-    },
-    {
-      "Route": "Assets/Defuse.zmv4dbu0kg.gif",
-      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Defuse.gif",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "7691"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/gif"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"1W0SntERKNnj0q/ZVOTQKxdUW4sr+8jPFb0YJ5I1zU0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 22:15:57 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "zmv4dbu0kg"
-        },
-        {
-          "Name": "label",
-          "Value": "Assets/Defuse.gif"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-1W0SntERKNnj0q/ZVOTQKxdUW4sr+8jPFb0YJ5I1zU0="
-        }
-      ]
-    },
-    {
       "Route": "Assets/Easy.4uhrnabfm1.png",
       "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Easy.png",
       "Selectors": [],
@@ -3283,170 +3222,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-9B2va/g22MuYbzCMy5+aHaBGRQ+tljCxnJWVxmJXDGs="
-        }
-      ]
-    },
-    {
-      "Route": "Assets/Explode.b4tzg0b3ez.gif",
-      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Explode.gif",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3601"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/gif"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"K/7NQRgM/voL0wUurdo5wFWc5ck9Fzxl+wG0R3Ph2L0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 21 Nov 2024 19:31:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "b4tzg0b3ez"
-        },
-        {
-          "Name": "label",
-          "Value": "Assets/Explode.gif"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-K/7NQRgM/voL0wUurdo5wFWc5ck9Fzxl+wG0R3Ph2L0="
-        }
-      ]
-    },
-    {
-      "Route": "Assets/Explode.gif",
-      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Explode.gif",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3601"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/gif"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"K/7NQRgM/voL0wUurdo5wFWc5ck9Fzxl+wG0R3Ph2L0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 21 Nov 2024 19:31:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-K/7NQRgM/voL0wUurdo5wFWc5ck9Fzxl+wG0R3Ph2L0="
-        }
-      ]
-    },
-    {
-      "Route": "Assets/Exploded.8f4h5jk0lv.png",
-      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Exploded.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "871"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"pMFEj13LI2tqwYT2ooJ8vK7dKMxe1Un6B+hi/J18yHg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 22 Nov 2024 01:57:38 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "8f4h5jk0lv"
-        },
-        {
-          "Name": "label",
-          "Value": "Assets/Exploded.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-pMFEj13LI2tqwYT2ooJ8vK7dKMxe1Un6B+hi/J18yHg="
-        }
-      ]
-    },
-    {
-      "Route": "Assets/Exploded.png",
-      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Exploded.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "871"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"pMFEj13LI2tqwYT2ooJ8vK7dKMxe1Un6B+hi/J18yHg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 22 Nov 2024 01:57:38 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-pMFEj13LI2tqwYT2ooJ8vK7dKMxe1Un6B+hi/J18yHg="
         }
       ]
     },
@@ -4841,6 +4616,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-5MaFwobNPZf3olc5MBmW8PiZmg4o9JpawE5PsfQRGq4="
+        }
+      ]
+    },
+    {
+      "Route": "Assets/Images/Game/Defuse.gif",
+      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Game\\Defuse.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7691"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1W0SntERKNnj0q/ZVOTQKxdUW4sr+8jPFb0YJ5I1zU0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 22:15:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1W0SntERKNnj0q/ZVOTQKxdUW4sr+8jPFb0YJ5I1zU0="
+        }
+      ]
+    },
+    {
+      "Route": "Assets/Images/Game/Defuse.zmv4dbu0kg.gif",
+      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Game\\Defuse.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7691"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1W0SntERKNnj0q/ZVOTQKxdUW4sr+8jPFb0YJ5I1zU0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 22:15:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zmv4dbu0kg"
+        },
+        {
+          "Name": "label",
+          "Value": "Assets/Images/Game/Defuse.gif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1W0SntERKNnj0q/ZVOTQKxdUW4sr+8jPFb0YJ5I1zU0="
+        }
+      ]
+    },
+    {
+      "Route": "Assets/Images/Game/Explode.b4tzg0b3ez.gif",
+      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Game\\Explode.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3601"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K/7NQRgM/voL0wUurdo5wFWc5ck9Fzxl+wG0R3Ph2L0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 21 Nov 2024 19:31:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b4tzg0b3ez"
+        },
+        {
+          "Name": "label",
+          "Value": "Assets/Images/Game/Explode.gif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-K/7NQRgM/voL0wUurdo5wFWc5ck9Fzxl+wG0R3Ph2L0="
+        }
+      ]
+    },
+    {
+      "Route": "Assets/Images/Game/Explode.gif",
+      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Game\\Explode.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3601"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K/7NQRgM/voL0wUurdo5wFWc5ck9Fzxl+wG0R3Ph2L0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 21 Nov 2024 19:31:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-K/7NQRgM/voL0wUurdo5wFWc5ck9Fzxl+wG0R3Ph2L0="
+        }
+      ]
+    },
+    {
+      "Route": "Assets/Images/Game/Exploded.8f4h5jk0lv.png",
+      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Game\\Exploded.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "871"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pMFEj13LI2tqwYT2ooJ8vK7dKMxe1Un6B+hi/J18yHg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Nov 2024 01:57:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8f4h5jk0lv"
+        },
+        {
+          "Name": "label",
+          "Value": "Assets/Images/Game/Exploded.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pMFEj13LI2tqwYT2ooJ8vK7dKMxe1Un6B+hi/J18yHg="
+        }
+      ]
+    },
+    {
+      "Route": "Assets/Images/Game/Exploded.png",
+      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Images\\Game\\Exploded.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "871"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pMFEj13LI2tqwYT2ooJ8vK7dKMxe1Un6B+hi/J18yHg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Nov 2024 01:57:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pMFEj13LI2tqwYT2ooJ8vK7dKMxe1Un6B+hi/J18yHg="
         }
       ]
     },
@@ -8371,8 +8392,8 @@
       ]
     },
     {
-      "Route": "Assets/SoundEffects/defuse.f5ymxx2mkm.mp3",
-      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\SoundEffects\\defuse.mp3",
+      "Route": "Assets/Sounds/Defuse.f5ymxx2mkm.mp3",
+      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\Defuse.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8407,7 +8428,7 @@
         },
         {
           "Name": "label",
-          "Value": "Assets/SoundEffects/defuse.mp3"
+          "Value": "Assets/Sounds/Defuse.mp3"
         },
         {
           "Name": "integrity",
@@ -8416,8 +8437,8 @@
       ]
     },
     {
-      "Route": "Assets/SoundEffects/defuse.mp3",
-      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\SoundEffects\\defuse.mp3",
+      "Route": "Assets/Sounds/Defuse.mp3",
+      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\Defuse.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8453,8 +8474,8 @@
       ]
     },
     {
-      "Route": "Assets/SoundEffects/explosion.1gxw2wrizz.mp3",
-      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\SoundEffects\\explosion.mp3",
+      "Route": "Assets/Sounds/Explode.1gxw2wrizz.mp3",
+      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\Explode.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8489,7 +8510,7 @@
         },
         {
           "Name": "label",
-          "Value": "Assets/SoundEffects/explosion.mp3"
+          "Value": "Assets/Sounds/Explode.mp3"
         },
         {
           "Name": "integrity",
@@ -8498,8 +8519,8 @@
       ]
     },
     {
-      "Route": "Assets/SoundEffects/explosion.mp3",
-      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\SoundEffects\\explosion.mp3",
+      "Route": "Assets/Sounds/Explode.mp3",
+      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\Explode.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8535,8 +8556,8 @@
       ]
     },
     {
-      "Route": "Assets/SoundEffects/flag.mp3",
-      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\SoundEffects\\flag.mp3",
+      "Route": "Assets/Sounds/Flag.mp3",
+      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\Flag.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8572,8 +8593,8 @@
       ]
     },
     {
-      "Route": "Assets/SoundEffects/flag.yaue0b8pta.mp3",
-      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\SoundEffects\\flag.mp3",
+      "Route": "Assets/Sounds/Flag.yaue0b8pta.mp3",
+      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\Flag.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8608,7 +8629,7 @@
         },
         {
           "Name": "label",
-          "Value": "Assets/SoundEffects/flag.mp3"
+          "Value": "Assets/Sounds/Flag.mp3"
         },
         {
           "Name": "integrity",
@@ -8617,8 +8638,8 @@
       ]
     },
     {
-      "Route": "Assets/SoundEffects/gameplay.fl9afhj41j.mp3",
-      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\SoundEffects\\gameplay.mp3",
+      "Route": "Assets/Sounds/Gameplay.fl9afhj41j.mp3",
+      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\Gameplay.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8653,7 +8674,7 @@
         },
         {
           "Name": "label",
-          "Value": "Assets/SoundEffects/gameplay.mp3"
+          "Value": "Assets/Sounds/Gameplay.mp3"
         },
         {
           "Name": "integrity",
@@ -8662,8 +8683,8 @@
       ]
     },
     {
-      "Route": "Assets/SoundEffects/gameplay.mp3",
-      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\SoundEffects\\gameplay.mp3",
+      "Route": "Assets/Sounds/Gameplay.mp3",
+      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\Gameplay.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8699,8 +8720,8 @@
       ]
     },
     {
-      "Route": "Assets/SoundEffects/lost.45797fo06p.mp3",
-      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\SoundEffects\\lost.mp3",
+      "Route": "Assets/Sounds/Lose.45797fo06p.mp3",
+      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\Lose.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8735,7 +8756,7 @@
         },
         {
           "Name": "label",
-          "Value": "Assets/SoundEffects/lost.mp3"
+          "Value": "Assets/Sounds/Lose.mp3"
         },
         {
           "Name": "integrity",
@@ -8744,8 +8765,8 @@
       ]
     },
     {
-      "Route": "Assets/SoundEffects/lost.mp3",
-      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\SoundEffects\\lost.mp3",
+      "Route": "Assets/Sounds/Lose.mp3",
+      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\Lose.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8781,8 +8802,8 @@
       ]
     },
     {
-      "Route": "Assets/SoundEffects/MainButton.m7nqyvmdhi.mp3",
-      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\SoundEffects\\MainButton.mp3",
+      "Route": "Assets/Sounds/MainButton.m7nqyvmdhi.mp3",
+      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\MainButton.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8817,7 +8838,7 @@
         },
         {
           "Name": "label",
-          "Value": "Assets/SoundEffects/MainButton.mp3"
+          "Value": "Assets/Sounds/MainButton.mp3"
         },
         {
           "Name": "integrity",
@@ -8826,8 +8847,8 @@
       ]
     },
     {
-      "Route": "Assets/SoundEffects/MainButton.mp3",
-      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\SoundEffects\\MainButton.mp3",
+      "Route": "Assets/Sounds/MainButton.mp3",
+      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\MainButton.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8863,8 +8884,8 @@
       ]
     },
     {
-      "Route": "Assets/SoundEffects/mainMenu.mp3",
-      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\SoundEffects\\mainMenu.mp3",
+      "Route": "Assets/Sounds/MainMenu.mp3",
+      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\MainMenu.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8900,8 +8921,8 @@
       ]
     },
     {
-      "Route": "Assets/SoundEffects/mainMenu.uzxrm3e0sa.mp3",
-      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\SoundEffects\\mainMenu.mp3",
+      "Route": "Assets/Sounds/MainMenu.uzxrm3e0sa.mp3",
+      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\MainMenu.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8936,7 +8957,7 @@
         },
         {
           "Name": "label",
-          "Value": "Assets/SoundEffects/mainMenu.mp3"
+          "Value": "Assets/Sounds/MainMenu.mp3"
         },
         {
           "Name": "integrity",
@@ -8945,8 +8966,8 @@
       ]
     },
     {
-      "Route": "Assets/SoundEffects/Reward.j1kczvbkcv.mp3",
-      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\SoundEffects\\Reward.mp3",
+      "Route": "Assets/Sounds/Reward.j1kczvbkcv.mp3",
+      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\Reward.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8981,7 +9002,7 @@
         },
         {
           "Name": "label",
-          "Value": "Assets/SoundEffects/Reward.mp3"
+          "Value": "Assets/Sounds/Reward.mp3"
         },
         {
           "Name": "integrity",
@@ -8990,8 +9011,8 @@
       ]
     },
     {
-      "Route": "Assets/SoundEffects/Reward.mp3",
-      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\SoundEffects\\Reward.mp3",
+      "Route": "Assets/Sounds/Reward.mp3",
+      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\Reward.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9027,8 +9048,8 @@
       ]
     },
     {
-      "Route": "Assets/SoundEffects/tileclick.2brbtva2py.mp3",
-      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\SoundEffects\\tileclick.mp3",
+      "Route": "Assets/Sounds/TileClick.2brbtva2py.mp3",
+      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\TileClick.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9063,7 +9084,7 @@
         },
         {
           "Name": "label",
-          "Value": "Assets/SoundEffects/tileclick.mp3"
+          "Value": "Assets/Sounds/TileClick.mp3"
         },
         {
           "Name": "integrity",
@@ -9072,8 +9093,8 @@
       ]
     },
     {
-      "Route": "Assets/SoundEffects/tileclick.mp3",
-      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\SoundEffects\\tileclick.mp3",
+      "Route": "Assets/Sounds/TileClick.mp3",
+      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\TileClick.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9109,8 +9130,8 @@
       ]
     },
     {
-      "Route": "Assets/SoundEffects/victory.ebj5a2bjfg.mp3",
-      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\SoundEffects\\victory.mp3",
+      "Route": "Assets/Sounds/Win.ebj5a2bjfg.mp3",
+      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\Win.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9145,7 +9166,7 @@
         },
         {
           "Name": "label",
-          "Value": "Assets/SoundEffects/victory.mp3"
+          "Value": "Assets/Sounds/Win.mp3"
         },
         {
           "Name": "integrity",
@@ -9154,8 +9175,8 @@
       ]
     },
     {
-      "Route": "Assets/SoundEffects/victory.mp3",
-      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\SoundEffects\\victory.mp3",
+      "Route": "Assets/Sounds/Win.mp3",
+      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\Assets\\Sounds\\Win.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9283,7 +9304,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2213"
+          "Value": "2464"
         },
         {
           "Name": "Content-Type",
@@ -9291,11 +9312,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ol8nMPBB758IIXytS299vLuZyiwTYdB4ngo1bJpiHzk=\""
+          "Value": "\"q8E6Ep+bcOXG2oruncWa8adGerlzBnln7Rmy5lzWN+8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 08:06:52 GMT"
+          "Value": "Fri, 07 Mar 2025 15:55:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9305,12 +9326,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ol8nMPBB758IIXytS299vLuZyiwTYdB4ngo1bJpiHzk="
+          "Value": "sha256-q8E6Ep+bcOXG2oruncWa8adGerlzBnln7Rmy5lzWN+8="
         }
       ]
     },
     {
-      "Route": "css/game.edkam9se37.css",
+      "Route": "css/game.pbzmyg8z8o.css",
       "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\css\\game.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -9320,7 +9341,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2213"
+          "Value": "2464"
         },
         {
           "Name": "Content-Type",
@@ -9328,11 +9349,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ol8nMPBB758IIXytS299vLuZyiwTYdB4ngo1bJpiHzk=\""
+          "Value": "\"q8E6Ep+bcOXG2oruncWa8adGerlzBnln7Rmy5lzWN+8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 08:06:52 GMT"
+          "Value": "Fri, 07 Mar 2025 15:55:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9342,7 +9363,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "edkam9se37"
+          "Value": "pbzmyg8z8o"
         },
         {
           "Name": "label",
@@ -9350,52 +9371,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ol8nMPBB758IIXytS299vLuZyiwTYdB4ngo1bJpiHzk="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.bnc3525w2y.css",
-      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1334"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"xx/lbXg50mZ/zm+aY9XwiSW+3DZgxyeoVTT97vRFhoA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 05:52:12 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "bnc3525w2y"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-xx/lbXg50mZ/zm+aY9XwiSW+3DZgxyeoVTT97vRFhoA="
+          "Value": "sha256-q8E6Ep+bcOXG2oruncWa8adGerlzBnln7Rmy5lzWN+8="
         }
       ]
     },
@@ -9410,7 +9386,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1334"
+          "Value": "2927"
         },
         {
           "Name": "Content-Type",
@@ -9418,11 +9394,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xx/lbXg50mZ/zm+aY9XwiSW+3DZgxyeoVTT97vRFhoA=\""
+          "Value": "\"/agQnRaYosSRK8TNkhI0TczvS9zpF4cSlNkULu8oKL0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 05:52:12 GMT"
+          "Value": "Sat, 08 Mar 2025 00:23:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9432,7 +9408,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-xx/lbXg50mZ/zm+aY9XwiSW+3DZgxyeoVTT97vRFhoA="
+          "Value": "sha256-/agQnRaYosSRK8TNkhI0TczvS9zpF4cSlNkULu8oKL0="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.nv1ablplzu.css",
+      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2927"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/agQnRaYosSRK8TNkhI0TczvS9zpF4cSlNkULu8oKL0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Mar 2025 00:23:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nv1ablplzu"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/agQnRaYosSRK8TNkhI0TczvS9zpF4cSlNkULu8oKL0="
         }
       ]
     },
@@ -9515,6 +9536,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "js/sfx.js",
+      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\js\\sfx.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6lcOjdKHthY7zILe8g6crFi3m7qSfAAYk9OpIYhZ1Tg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Mar 2025 15:27:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6lcOjdKHthY7zILe8g6crFi3m7qSfAAYk9OpIYhZ1Tg="
+        }
+      ]
+    },
+    {
+      "Route": "js/sfx.mhb7iw1xqm.js",
+      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\js\\sfx.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6lcOjdKHthY7zILe8g6crFi3m7qSfAAYk9OpIYhZ1Tg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Mar 2025 15:27:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mhb7iw1xqm"
+        },
+        {
+          "Name": "label",
+          "Value": "js/sfx.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6lcOjdKHthY7zILe8g6crFi3m7qSfAAYk9OpIYhZ1Tg="
         }
       ]
     },

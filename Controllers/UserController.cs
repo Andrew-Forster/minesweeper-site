@@ -1,5 +1,6 @@
 ﻿using System.Text.Json;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Minesweeper.Filters;
 using Minesweeper.Models;
 
@@ -29,14 +30,15 @@ namespace Minesweeper.Controllers
         {
             if (ModelState.IsValid)
             {
+                bool userExists = await _context.Users.AnyAsync(u => u.Username == model.Username);
+                if (userExists)
+                {
+                    ModelState.AddModelError("Username", "Username is already taken.");
+                    return View(model);
+                }
+
                 var user = new UserModel
                 {
-                    FirstName = model.FirstName,
-                    LastName = model.LastName,
-                    Sex = model.Sex,
-                    Age = model.Age,
-                    State = model.State,
-                    EmailAddress = model.EmailAddress,
                     Username = model.Username,
                 };
                 user.SetPassword(model.Password);
@@ -49,6 +51,7 @@ namespace Minesweeper.Controllers
 
             return View(model);
         }
+
 
         /// <summary>
         /// Logs in a user.

@@ -85,88 +85,6 @@
       ]
     },
     {
-      "Route": "Assets/Defuse.gif",
-      "AssetFile": "Assets/Defuse.gif",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "7691"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/gif"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"1W0SntERKNnj0q/ZVOTQKxdUW4sr+8jPFb0YJ5I1zU0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 22:15:57 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-1W0SntERKNnj0q/ZVOTQKxdUW4sr+8jPFb0YJ5I1zU0="
-        }
-      ]
-    },
-    {
-      "Route": "Assets/Defuse.zmv4dbu0kg.gif",
-      "AssetFile": "Assets/Defuse.gif",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "7691"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/gif"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"1W0SntERKNnj0q/ZVOTQKxdUW4sr+8jPFb0YJ5I1zU0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 22:15:57 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "zmv4dbu0kg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-1W0SntERKNnj0q/ZVOTQKxdUW4sr+8jPFb0YJ5I1zU0="
-        },
-        {
-          "Name": "label",
-          "Value": "Assets/Defuse.gif"
-        }
-      ]
-    },
-    {
       "Route": "Assets/Easy.4uhrnabfm1.png",
       "AssetFile": "Assets/Easy.png",
       "Selectors": [],
@@ -245,170 +163,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-9B2va/g22MuYbzCMy5+aHaBGRQ+tljCxnJWVxmJXDGs="
-        }
-      ]
-    },
-    {
-      "Route": "Assets/Explode.b4tzg0b3ez.gif",
-      "AssetFile": "Assets/Explode.gif",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3601"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/gif"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"K/7NQRgM/voL0wUurdo5wFWc5ck9Fzxl+wG0R3Ph2L0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 21 Nov 2024 19:31:19 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "b4tzg0b3ez"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-K/7NQRgM/voL0wUurdo5wFWc5ck9Fzxl+wG0R3Ph2L0="
-        },
-        {
-          "Name": "label",
-          "Value": "Assets/Explode.gif"
-        }
-      ]
-    },
-    {
-      "Route": "Assets/Explode.gif",
-      "AssetFile": "Assets/Explode.gif",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3601"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/gif"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"K/7NQRgM/voL0wUurdo5wFWc5ck9Fzxl+wG0R3Ph2L0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 21 Nov 2024 19:31:19 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-K/7NQRgM/voL0wUurdo5wFWc5ck9Fzxl+wG0R3Ph2L0="
-        }
-      ]
-    },
-    {
-      "Route": "Assets/Exploded.8f4h5jk0lv.png",
-      "AssetFile": "Assets/Exploded.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "871"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"pMFEj13LI2tqwYT2ooJ8vK7dKMxe1Un6B+hi/J18yHg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 22 Nov 2024 01:57:38 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "8f4h5jk0lv"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-pMFEj13LI2tqwYT2ooJ8vK7dKMxe1Un6B+hi/J18yHg="
-        },
-        {
-          "Name": "label",
-          "Value": "Assets/Exploded.png"
-        }
-      ]
-    },
-    {
-      "Route": "Assets/Exploded.png",
-      "AssetFile": "Assets/Exploded.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "871"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"pMFEj13LI2tqwYT2ooJ8vK7dKMxe1Un6B+hi/J18yHg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 22 Nov 2024 01:57:38 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-pMFEj13LI2tqwYT2ooJ8vK7dKMxe1Un6B+hi/J18yHg="
         }
       ]
     },
@@ -1803,6 +1557,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-5MaFwobNPZf3olc5MBmW8PiZmg4o9JpawE5PsfQRGq4="
+        }
+      ]
+    },
+    {
+      "Route": "Assets/Images/Game/Defuse.gif",
+      "AssetFile": "Assets/Images/Game/Defuse.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7691"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1W0SntERKNnj0q/ZVOTQKxdUW4sr+8jPFb0YJ5I1zU0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 22:15:57 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1W0SntERKNnj0q/ZVOTQKxdUW4sr+8jPFb0YJ5I1zU0="
+        }
+      ]
+    },
+    {
+      "Route": "Assets/Images/Game/Defuse.zmv4dbu0kg.gif",
+      "AssetFile": "Assets/Images/Game/Defuse.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7691"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1W0SntERKNnj0q/ZVOTQKxdUW4sr+8jPFb0YJ5I1zU0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 22:15:57 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zmv4dbu0kg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1W0SntERKNnj0q/ZVOTQKxdUW4sr+8jPFb0YJ5I1zU0="
+        },
+        {
+          "Name": "label",
+          "Value": "Assets/Images/Game/Defuse.gif"
+        }
+      ]
+    },
+    {
+      "Route": "Assets/Images/Game/Explode.b4tzg0b3ez.gif",
+      "AssetFile": "Assets/Images/Game/Explode.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3601"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K/7NQRgM/voL0wUurdo5wFWc5ck9Fzxl+wG0R3Ph2L0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 21 Nov 2024 19:31:19 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b4tzg0b3ez"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-K/7NQRgM/voL0wUurdo5wFWc5ck9Fzxl+wG0R3Ph2L0="
+        },
+        {
+          "Name": "label",
+          "Value": "Assets/Images/Game/Explode.gif"
+        }
+      ]
+    },
+    {
+      "Route": "Assets/Images/Game/Explode.gif",
+      "AssetFile": "Assets/Images/Game/Explode.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3601"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K/7NQRgM/voL0wUurdo5wFWc5ck9Fzxl+wG0R3Ph2L0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 21 Nov 2024 19:31:19 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-K/7NQRgM/voL0wUurdo5wFWc5ck9Fzxl+wG0R3Ph2L0="
+        }
+      ]
+    },
+    {
+      "Route": "Assets/Images/Game/Exploded.8f4h5jk0lv.png",
+      "AssetFile": "Assets/Images/Game/Exploded.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "871"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pMFEj13LI2tqwYT2ooJ8vK7dKMxe1Un6B+hi/J18yHg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Nov 2024 01:57:38 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8f4h5jk0lv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pMFEj13LI2tqwYT2ooJ8vK7dKMxe1Un6B+hi/J18yHg="
+        },
+        {
+          "Name": "label",
+          "Value": "Assets/Images/Game/Exploded.png"
+        }
+      ]
+    },
+    {
+      "Route": "Assets/Images/Game/Exploded.png",
+      "AssetFile": "Assets/Images/Game/Exploded.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "871"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pMFEj13LI2tqwYT2ooJ8vK7dKMxe1Un6B+hi/J18yHg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Nov 2024 01:57:38 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pMFEj13LI2tqwYT2ooJ8vK7dKMxe1Un6B+hi/J18yHg="
         }
       ]
     },
@@ -5169,172 +5169,8 @@
       ]
     },
     {
-      "Route": "Assets/SoundEffects/MainButton.m7nqyvmdhi.mp3",
-      "AssetFile": "Assets/SoundEffects/MainButton.mp3",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2635"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "audio/mpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"/il+LLcIBmi5chouZJqCEdIYjRKbevom0Ji23jKq8EM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 04:17:57 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "m7nqyvmdhi"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-/il+LLcIBmi5chouZJqCEdIYjRKbevom0Ji23jKq8EM="
-        },
-        {
-          "Name": "label",
-          "Value": "Assets/SoundEffects/MainButton.mp3"
-        }
-      ]
-    },
-    {
-      "Route": "Assets/SoundEffects/MainButton.mp3",
-      "AssetFile": "Assets/SoundEffects/MainButton.mp3",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2635"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "audio/mpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"/il+LLcIBmi5chouZJqCEdIYjRKbevom0Ji23jKq8EM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 04:17:57 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-/il+LLcIBmi5chouZJqCEdIYjRKbevom0Ji23jKq8EM="
-        }
-      ]
-    },
-    {
-      "Route": "Assets/SoundEffects/Reward.j1kczvbkcv.mp3",
-      "AssetFile": "Assets/SoundEffects/Reward.mp3",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "11340"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "audio/mpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"iYAxw5Rf3vP948AFO6iZpQVBvP9yL/iG9gAKWfqc/f0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 04:17:57 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "j1kczvbkcv"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-iYAxw5Rf3vP948AFO6iZpQVBvP9yL/iG9gAKWfqc/f0="
-        },
-        {
-          "Name": "label",
-          "Value": "Assets/SoundEffects/Reward.mp3"
-        }
-      ]
-    },
-    {
-      "Route": "Assets/SoundEffects/Reward.mp3",
-      "AssetFile": "Assets/SoundEffects/Reward.mp3",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "11340"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "audio/mpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"iYAxw5Rf3vP948AFO6iZpQVBvP9yL/iG9gAKWfqc/f0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 04:17:57 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-iYAxw5Rf3vP948AFO6iZpQVBvP9yL/iG9gAKWfqc/f0="
-        }
-      ]
-    },
-    {
-      "Route": "Assets/SoundEffects/defuse.f5ymxx2mkm.mp3",
-      "AssetFile": "Assets/SoundEffects/defuse.mp3",
+      "Route": "Assets/Sounds/Defuse.f5ymxx2mkm.mp3",
+      "AssetFile": "Assets/Sounds/Defuse.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5373,13 +5209,13 @@
         },
         {
           "Name": "label",
-          "Value": "Assets/SoundEffects/defuse.mp3"
+          "Value": "Assets/Sounds/Defuse.mp3"
         }
       ]
     },
     {
-      "Route": "Assets/SoundEffects/defuse.mp3",
-      "AssetFile": "Assets/SoundEffects/defuse.mp3",
+      "Route": "Assets/Sounds/Defuse.mp3",
+      "AssetFile": "Assets/Sounds/Defuse.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5415,8 +5251,8 @@
       ]
     },
     {
-      "Route": "Assets/SoundEffects/explosion.1gxw2wrizz.mp3",
-      "AssetFile": "Assets/SoundEffects/explosion.mp3",
+      "Route": "Assets/Sounds/Explode.1gxw2wrizz.mp3",
+      "AssetFile": "Assets/Sounds/Explode.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5455,13 +5291,13 @@
         },
         {
           "Name": "label",
-          "Value": "Assets/SoundEffects/explosion.mp3"
+          "Value": "Assets/Sounds/Explode.mp3"
         }
       ]
     },
     {
-      "Route": "Assets/SoundEffects/explosion.mp3",
-      "AssetFile": "Assets/SoundEffects/explosion.mp3",
+      "Route": "Assets/Sounds/Explode.mp3",
+      "AssetFile": "Assets/Sounds/Explode.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5497,8 +5333,8 @@
       ]
     },
     {
-      "Route": "Assets/SoundEffects/flag.mp3",
-      "AssetFile": "Assets/SoundEffects/flag.mp3",
+      "Route": "Assets/Sounds/Flag.mp3",
+      "AssetFile": "Assets/Sounds/Flag.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5534,8 +5370,8 @@
       ]
     },
     {
-      "Route": "Assets/SoundEffects/flag.yaue0b8pta.mp3",
-      "AssetFile": "Assets/SoundEffects/flag.mp3",
+      "Route": "Assets/Sounds/Flag.yaue0b8pta.mp3",
+      "AssetFile": "Assets/Sounds/Flag.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5574,13 +5410,13 @@
         },
         {
           "Name": "label",
-          "Value": "Assets/SoundEffects/flag.mp3"
+          "Value": "Assets/Sounds/Flag.mp3"
         }
       ]
     },
     {
-      "Route": "Assets/SoundEffects/gameplay.fl9afhj41j.mp3",
-      "AssetFile": "Assets/SoundEffects/gameplay.mp3",
+      "Route": "Assets/Sounds/Gameplay.fl9afhj41j.mp3",
+      "AssetFile": "Assets/Sounds/Gameplay.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5619,13 +5455,13 @@
         },
         {
           "Name": "label",
-          "Value": "Assets/SoundEffects/gameplay.mp3"
+          "Value": "Assets/Sounds/Gameplay.mp3"
         }
       ]
     },
     {
-      "Route": "Assets/SoundEffects/gameplay.mp3",
-      "AssetFile": "Assets/SoundEffects/gameplay.mp3",
+      "Route": "Assets/Sounds/Gameplay.mp3",
+      "AssetFile": "Assets/Sounds/Gameplay.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5661,8 +5497,8 @@
       ]
     },
     {
-      "Route": "Assets/SoundEffects/lost.45797fo06p.mp3",
-      "AssetFile": "Assets/SoundEffects/lost.mp3",
+      "Route": "Assets/Sounds/Lose.45797fo06p.mp3",
+      "AssetFile": "Assets/Sounds/Lose.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5701,13 +5537,13 @@
         },
         {
           "Name": "label",
-          "Value": "Assets/SoundEffects/lost.mp3"
+          "Value": "Assets/Sounds/Lose.mp3"
         }
       ]
     },
     {
-      "Route": "Assets/SoundEffects/lost.mp3",
-      "AssetFile": "Assets/SoundEffects/lost.mp3",
+      "Route": "Assets/Sounds/Lose.mp3",
+      "AssetFile": "Assets/Sounds/Lose.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5743,8 +5579,90 @@
       ]
     },
     {
-      "Route": "Assets/SoundEffects/mainMenu.mp3",
-      "AssetFile": "Assets/SoundEffects/mainMenu.mp3",
+      "Route": "Assets/Sounds/MainButton.m7nqyvmdhi.mp3",
+      "AssetFile": "Assets/Sounds/MainButton.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2635"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/il+LLcIBmi5chouZJqCEdIYjRKbevom0Ji23jKq8EM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 04:17:57 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m7nqyvmdhi"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/il+LLcIBmi5chouZJqCEdIYjRKbevom0Ji23jKq8EM="
+        },
+        {
+          "Name": "label",
+          "Value": "Assets/Sounds/MainButton.mp3"
+        }
+      ]
+    },
+    {
+      "Route": "Assets/Sounds/MainButton.mp3",
+      "AssetFile": "Assets/Sounds/MainButton.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2635"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/il+LLcIBmi5chouZJqCEdIYjRKbevom0Ji23jKq8EM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 04:17:57 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/il+LLcIBmi5chouZJqCEdIYjRKbevom0Ji23jKq8EM="
+        }
+      ]
+    },
+    {
+      "Route": "Assets/Sounds/MainMenu.mp3",
+      "AssetFile": "Assets/Sounds/MainMenu.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5780,8 +5698,8 @@
       ]
     },
     {
-      "Route": "Assets/SoundEffects/mainMenu.uzxrm3e0sa.mp3",
-      "AssetFile": "Assets/SoundEffects/mainMenu.mp3",
+      "Route": "Assets/Sounds/MainMenu.uzxrm3e0sa.mp3",
+      "AssetFile": "Assets/Sounds/MainMenu.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5820,13 +5738,95 @@
         },
         {
           "Name": "label",
-          "Value": "Assets/SoundEffects/mainMenu.mp3"
+          "Value": "Assets/Sounds/MainMenu.mp3"
         }
       ]
     },
     {
-      "Route": "Assets/SoundEffects/tileclick.2brbtva2py.mp3",
-      "AssetFile": "Assets/SoundEffects/tileclick.mp3",
+      "Route": "Assets/Sounds/Reward.j1kczvbkcv.mp3",
+      "AssetFile": "Assets/Sounds/Reward.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11340"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iYAxw5Rf3vP948AFO6iZpQVBvP9yL/iG9gAKWfqc/f0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 04:17:57 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j1kczvbkcv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iYAxw5Rf3vP948AFO6iZpQVBvP9yL/iG9gAKWfqc/f0="
+        },
+        {
+          "Name": "label",
+          "Value": "Assets/Sounds/Reward.mp3"
+        }
+      ]
+    },
+    {
+      "Route": "Assets/Sounds/Reward.mp3",
+      "AssetFile": "Assets/Sounds/Reward.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11340"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iYAxw5Rf3vP948AFO6iZpQVBvP9yL/iG9gAKWfqc/f0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 04:17:57 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iYAxw5Rf3vP948AFO6iZpQVBvP9yL/iG9gAKWfqc/f0="
+        }
+      ]
+    },
+    {
+      "Route": "Assets/Sounds/TileClick.2brbtva2py.mp3",
+      "AssetFile": "Assets/Sounds/TileClick.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5865,13 +5865,13 @@
         },
         {
           "Name": "label",
-          "Value": "Assets/SoundEffects/tileclick.mp3"
+          "Value": "Assets/Sounds/TileClick.mp3"
         }
       ]
     },
     {
-      "Route": "Assets/SoundEffects/tileclick.mp3",
-      "AssetFile": "Assets/SoundEffects/tileclick.mp3",
+      "Route": "Assets/Sounds/TileClick.mp3",
+      "AssetFile": "Assets/Sounds/TileClick.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5907,8 +5907,8 @@
       ]
     },
     {
-      "Route": "Assets/SoundEffects/victory.ebj5a2bjfg.mp3",
-      "AssetFile": "Assets/SoundEffects/victory.mp3",
+      "Route": "Assets/Sounds/Win.ebj5a2bjfg.mp3",
+      "AssetFile": "Assets/Sounds/Win.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5947,13 +5947,13 @@
         },
         {
           "Name": "label",
-          "Value": "Assets/SoundEffects/victory.mp3"
+          "Value": "Assets/Sounds/Win.mp3"
         }
       ]
     },
     {
-      "Route": "Assets/SoundEffects/victory.mp3",
-      "AssetFile": "Assets/SoundEffects/victory.mp3",
+      "Route": "Assets/Sounds/Win.mp3",
+      "AssetFile": "Assets/Sounds/Win.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6413,7 +6413,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2213"
+          "Value": "2464"
         },
         {
           "Name": "Content-Type",
@@ -6421,22 +6421,22 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ol8nMPBB758IIXytS299vLuZyiwTYdB4ngo1bJpiHzk=\""
+          "Value": "\"q8E6Ep+bcOXG2oruncWa8adGerlzBnln7Rmy5lzWN+8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 08:06:52 GMT"
+          "Value": "Fri, 07 Mar 2025 15:55:05 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ol8nMPBB758IIXytS299vLuZyiwTYdB4ngo1bJpiHzk="
+          "Value": "sha256-q8E6Ep+bcOXG2oruncWa8adGerlzBnln7Rmy5lzWN+8="
         }
       ]
     },
     {
-      "Route": "css/game.edkam9se37.css",
+      "Route": "css/game.pbzmyg8z8o.css",
       "AssetFile": "css/game.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -6450,7 +6450,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2213"
+          "Value": "2464"
         },
         {
           "Name": "Content-Type",
@@ -6458,70 +6458,25 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ol8nMPBB758IIXytS299vLuZyiwTYdB4ngo1bJpiHzk=\""
+          "Value": "\"q8E6Ep+bcOXG2oruncWa8adGerlzBnln7Rmy5lzWN+8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 08:06:52 GMT"
+          "Value": "Fri, 07 Mar 2025 15:55:05 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "edkam9se37"
+          "Value": "pbzmyg8z8o"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ol8nMPBB758IIXytS299vLuZyiwTYdB4ngo1bJpiHzk="
+          "Value": "sha256-q8E6Ep+bcOXG2oruncWa8adGerlzBnln7Rmy5lzWN+8="
         },
         {
           "Name": "label",
           "Value": "css/game.css"
-        }
-      ]
-    },
-    {
-      "Route": "css/site.bnc3525w2y.css",
-      "AssetFile": "css/site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1334"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"xx/lbXg50mZ/zm+aY9XwiSW+3DZgxyeoVTT97vRFhoA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 05:52:12 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "bnc3525w2y"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-xx/lbXg50mZ/zm+aY9XwiSW+3DZgxyeoVTT97vRFhoA="
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
         }
       ]
     },
@@ -6540,7 +6495,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1334"
+          "Value": "2927"
         },
         {
           "Name": "Content-Type",
@@ -6548,17 +6503,62 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xx/lbXg50mZ/zm+aY9XwiSW+3DZgxyeoVTT97vRFhoA=\""
+          "Value": "\"/agQnRaYosSRK8TNkhI0TczvS9zpF4cSlNkULu8oKL0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 05:52:12 GMT"
+          "Value": "Sat, 08 Mar 2025 00:23:44 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-xx/lbXg50mZ/zm+aY9XwiSW+3DZgxyeoVTT97vRFhoA="
+          "Value": "sha256-/agQnRaYosSRK8TNkhI0TczvS9zpF4cSlNkULu8oKL0="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.nv1ablplzu.css",
+      "AssetFile": "css/site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2927"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/agQnRaYosSRK8TNkhI0TczvS9zpF4cSlNkULu8oKL0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Mar 2025 00:23:44 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nv1ablplzu"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/agQnRaYosSRK8TNkhI0TczvS9zpF4cSlNkULu8oKL0="
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
         }
       ]
     },
@@ -6641,6 +6641,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "js/sfx.js",
+      "AssetFile": "js/sfx.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6lcOjdKHthY7zILe8g6crFi3m7qSfAAYk9OpIYhZ1Tg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Mar 2025 15:27:22 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6lcOjdKHthY7zILe8g6crFi3m7qSfAAYk9OpIYhZ1Tg="
+        }
+      ]
+    },
+    {
+      "Route": "js/sfx.mhb7iw1xqm.js",
+      "AssetFile": "js/sfx.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6lcOjdKHthY7zILe8g6crFi3m7qSfAAYk9OpIYhZ1Tg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Mar 2025 15:27:22 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mhb7iw1xqm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6lcOjdKHthY7zILe8g6crFi3m7qSfAAYk9OpIYhZ1Tg="
+        },
+        {
+          "Name": "label",
+          "Value": "js/sfx.js"
         }
       ]
     },
