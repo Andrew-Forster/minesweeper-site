@@ -1,0 +1,41 @@
+﻿@model Minesweeper.Models.RegisterViewModel
+
+<h2>Register</h2>
+
+<form method="post" id="registerForm">
+
+    <div class="mb-3">
+        <label for="Username" class="form-label">Username</label>
+        <input asp-for="Username" class="form-control" required />
+        <span asp-validation-for="Username" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label for="Password" class="form-label">Password</label>
+        <input asp-for="Password" type="password" class="form-control" id="password" required />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label for="ConfirmPassword" class="form-label">Confirm Password</label>
+        <input type="password" class="form-control" id="confirmPassword" required />
+        <div class="invalid-feedback">Passwords do not match.</div>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Register</button>
+
+</form>
+
+<script>
+    document.getElementById("registerForm").addEventListener("submit", function (e) {
+        const password = document.getElementById("password").value;
+        const confirmPassword = document.getElementById("confirmPassword");
+        
+        if (password !== confirmPassword.value) {
+            confirmPassword.classList.add("is-invalid");
+            e.preventDefault();
+        } else {
+            confirmPassword.classList.remove("is-invalid");
+        }
+    });
+</script>

@@ -1,0 +1,116 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C2E24FC1-5409-4981-B03F-FE58D82E756B}|MinesweeperLibrary\\MinesweeperLibrary.csproj|c:\\users\\forst\\school\\spmr\\cst-350 c# 3\\minesweeper\\minesweeperlibrary\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2E24FC1-5409-4981-B03F-FE58D82E756B}|MinesweeperLibrary\\MinesweeperLibrary.csproj|solutionrelative:minesweeperlibrary\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2E24FC1-5409-4981-B03F-FE58D82E756B}|MinesweeperLibrary\\MinesweeperLibrary.csproj|c:\\users\\forst\\school\\spmr\\cst-350 c# 3\\minesweeper\\minesweeperlibrary\\cell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2E24FC1-5409-4981-B03F-FE58D82E756B}|MinesweeperLibrary\\MinesweeperLibrary.csproj|solutionrelative:minesweeperlibrary\\cell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7475241-7B93-42B9-ABA1-8608C10C7A09}|Minesweeper\\Minesweeper.csproj|c:\\users\\forst\\school\\spmr\\cst-350 c# 3\\minesweeper\\minesweeper\\views\\game\\game.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7475241-7B93-42B9-ABA1-8608C10C7A09}|Minesweeper\\Minesweeper.csproj|solutionrelative:minesweeper\\views\\game\\game.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7475241-7B93-42B9-ABA1-8608C10C7A09}|Minesweeper\\Minesweeper.csproj|c:\\users\\forst\\school\\spmr\\cst-350 c# 3\\minesweeper\\minesweeper\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7475241-7B93-42B9-ABA1-8608C10C7A09}|Minesweeper\\Minesweeper.csproj|solutionrelative:minesweeper\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Board.cs",
+              "DocumentMoniker": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\MinesweeperLibrary\\Board.cs",
+              "RelativeDocumentMoniker": "MinesweeperLibrary\\Board.cs",
+              "ToolTip": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\MinesweeperLibrary\\Board.cs",
+              "RelativeToolTip": "MinesweeperLibrary\\Board.cs",
+              "ViewState": "AgIAAI4BAAAAAAAAAAAowJwBAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T05:38:09.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cell.cs",
+              "DocumentMoniker": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\MinesweeperLibrary\\Cell.cs",
+              "RelativeDocumentMoniker": "MinesweeperLibrary\\Cell.cs",
+              "ToolTip": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\MinesweeperLibrary\\Cell.cs",
+              "RelativeToolTip": "MinesweeperLibrary\\Cell.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAIA8wDAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T05:46:02.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Game.cshtml",
+              "DocumentMoniker": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\Views\\Game\\Game.cshtml",
+              "RelativeDocumentMoniker": "Minesweeper\\Views\\Game\\Game.cshtml",
+              "ToolTip": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\Views\\Game\\Game.cshtml",
+              "RelativeToolTip": "Minesweeper\\Views\\Game\\Game.cshtml",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAowF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-05T06:22:57.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameController.cs",
+              "DocumentMoniker": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\Controllers\\GameController.cs",
+              "RelativeDocumentMoniker": "Minesweeper\\Controllers\\GameController.cs",
+              "ToolTip": "C:\\Users\\forst\\School\\SPMR\\CST-350 C# 3\\Minesweeper\\Minesweeper\\Controllers\\GameController.cs",
+              "RelativeToolTip": "Minesweeper\\Controllers\\GameController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAD4v0UAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T03:55:33.269Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

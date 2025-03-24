@@ -1,0 +1,87 @@
+﻿<form method="post" id="startForm" class="active position-absolute top-50 start-50 translate-middle">
+    <input type="hidden" id="difficultyInput" name="Difficulty" value="">
+    <input type="hidden" id="boardSizeHidden" name="BoardSize" value="9">
+    <input type="hidden" id="mineCountHidden" name="MineCount" value="10">
+
+    <div id="difficulty" class="container limit">
+        <div class="d-flex">
+            <button class="custom-btn selected difficulty-btn" data-difficulty="Easy">
+                <img src="/Assets/Images/Buttons/BtnEasy.png" alt="Easy" width="150">
+                <img class="select" src="/Assets/Images/Buttons/BtnSelect.png" alt="" width="150">
+            </button>
+            <button class="custom-btn difficulty-btn" data-difficulty="Medium">
+                <img src="/Assets/Images/Buttons/BtnMedium.png" alt="Medium" width="150">
+                <img class="select" src="/Assets/Images/Buttons/BtnSelect.png" alt="" width="150">
+            </button>
+        </div>
+        <div class="d-flex">
+            <button class="custom-btn difficulty-btn" data-difficulty="Hard">
+                <img src="/Assets/Images/Buttons/BtnHard.png" alt="Hard" width="150">
+                <img class="select" src="/Assets/Images/Buttons/BtnSelect.png" alt="" width="150">
+            </button>
+            <button class="custom-btn difficulty-btn" data-difficulty="Custom">
+                <img src="/Assets/Images/Buttons/BtnCustom.png" alt="Custom" width="150">
+                <img class="select" src="/Assets/Images/Buttons/BtnSelect.png" alt="" width="150">
+            </button>
+        </div>
+    </div>
+    <div class="container limit">
+        <div class="custom-container">
+            <div id="boardSizeContainer" class="d-flex">
+                <label for="boardSize">Board Size: <span id="boardSizeValue">9</span></label>
+                <input class="float-end flex-shrink-0" type="range" id="boardSize" name="BoardSize" min="5" max="24" value="9"
+                       oninput="boardSizeValue.textContent = this.value">
+            </div>
+            <div id="mineCountContainer" class="d-flex">
+                <label for="mineCount">Mine Count: <span id="mineCountValue">12</span></label>
+                <input class="float-end flex-shrink-0" type="range" id="mineCount" name="MineCount" min="5" max="24" value="12"
+                       oninput="mineCountValue.textContent = this.value">
+            </div>
+        </div>
+
+        <button type="submit" class="custom-btn lg pt-2">
+            <img src="/Assets/Images/Buttons/BtnStart.png" alt="Start" width="150">
+        </button>
+    </div>
+</form>
+<div class="backdrop"></div>
+
+<script>
+    document.querySelectorAll(".difficulty-btn").forEach(button => {
+        button.addEventListener("click", function (event) {
+            event.preventDefault();
+
+            document.querySelectorAll(".difficulty-btn").forEach(btn => {
+                btn.classList.remove("selected");
+            });
+            this.classList.add("selected");
+
+            const selectedDifficulty = this.getAttribute("data-difficulty");
+            document.getElementById("difficultyInput").value = selectedDifficulty;
+
+            const custom = document.querySelector(".custom-container");
+
+            if (selectedDifficulty === "Custom") {
+                custom.classList.add("active");
+            } else {
+                custom.classList.remove("active");
+            }
+        });
+    });
+
+    // Update hidden inputs when sliders are changed
+    document.getElementById("boardSize").addEventListener("input", function () {
+        const boardSizeHidden = document.getElementById("boardSizeHidden");
+        const mineCount = document.getElementById("mineCount");
+        boardSizeHidden.value = this.value;
+        
+        mineCount.max = (boardSizeHidden.value * boardSizeHidden.value) / 4;
+        mineCount.value = !((mineCount.max / 2) > 5) ? 5 : (mineCount.max / 2);
+
+        document.getElementById("mineCountHidden").value = mineCount.value;
+        document.getElementById("mineCountValue").textContent = mineCount.value;
+    });
+    document.getElementById("mineCount").addEventListener("input", function () {
+        document.getElementById("mineCountHidden").value = this.value;
+    });
+</script>

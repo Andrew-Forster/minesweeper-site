@@ -1,0 +1,12 @@
+C:\Users\forst\School\SPMR\CST-350 C# 3\Minesweeper\MinesweeperLibrary\obj\Debug\MinesweeperLibrary.csproj.AssemblyReference.cache
+C:\Users\forst\School\SPMR\CST-350 C# 3\Minesweeper\MinesweeperLibrary\obj\Debug\MinesweeperLibrary.csproj.CoreCompileInputs.cache
+C:\Users\forst\School\SPMR\CST-350 C# 3\Minesweeper\MinesweeperLibrary\bin\Debug\MinesweeperLibrary.dll
+C:\Users\forst\School\SPMR\CST-350 C# 3\Minesweeper\MinesweeperLibrary\bin\Debug\MinesweeperLibrary.pdb
+C:\Users\forst\School\SPMR\CST-350 C# 3\Minesweeper\MinesweeperLibrary\obj\Debug\MinesweeperLibrary.dll
+C:\Users\forst\School\SPMR\CST-350 C# 3\Minesweeper\MinesweeperLibrary\obj\Debug\MinesweeperLibrary.pdb
+C:\Users\forst\Coding\VS Code Workspace\Projects\LEARNING\Minesweeper\MinesweeperLibrary\bin\Debug\MinesweeperLibrary.dll
+C:\Users\forst\Coding\VS Code Workspace\Projects\LEARNING\Minesweeper\MinesweeperLibrary\bin\Debug\MinesweeperLibrary.pdb
+C:\Users\forst\Coding\VS Code Workspace\Projects\LEARNING\Minesweeper\MinesweeperLibrary\obj\Debug\MinesweeperLibrary.csproj.AssemblyReference.cache
+C:\Users\forst\Coding\VS Code Workspace\Projects\LEARNING\Minesweeper\MinesweeperLibrary\obj\Debug\MinesweeperLibrary.csproj.CoreCompileInputs.cache
+C:\Users\forst\Coding\VS Code Workspace\Projects\LEARNING\Minesweeper\MinesweeperLibrary\obj\Debug\MinesweeperLibrary.dll
+C:\Users\forst\Coding\VS Code Workspace\Projects\LEARNING\Minesweeper\MinesweeperLibrary\obj\Debug\MinesweeperLibrary.pdb

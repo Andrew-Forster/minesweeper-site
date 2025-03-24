@@ -1,0 +1,324 @@
+@model Minesweeper.Models.StartGameModel
+
+@{
+    int rows = Model.BoardSize;
+    int cols = Model.BoardSize;
+    string cellSize = 100 / cols + "%";
+}
+<link rel="stylesheet" href="/css/game.css" asp-append-version="true"/>
+
+<div id="gameModal">
+    <div class="modal-content align-items-center">
+        <h2>Game Over!</h2>
+        <p id="gamePoints"></p>
+        <button class="tag btn-img w-100 m-0 py-1" onclick="restartGame()">
+            <img src="/Assets/Images/Buttons/BtnYellow.png"/>
+            <span class="ms-3">Play Again?</span>
+        </button>        <button class="tag btn-img w-100 m-0 py-1" onclick="startGame()">
+            <img src="/Assets/Images/Buttons/BtnGreen.png"/>
+            <span class="ms-3">Adjust Difficulty</span>
+        </button>        <button class="tag btn-img w-100 m-0 py-1" onclick="viewBoard()">
+            <img src="/Assets/Images/Buttons/BtnRed.png"/>
+            <span class="ms-3">View Board</span>
+        </button>
+    </div>
+</div>
+
+<div class="game-container h-100 flex-column flex-md-row px-3 px-md-0">
+    <aside class="sidebar m-4 me-5">
+        <p class="tag">
+            <img src="/Assets/Images/Game/score4.png"/>
+            <span id="score">0</span>
+        </p>
+        <p class="tag">
+            <img src="/Assets/Images/Game/info4.png"/>
+            <span id="timer">00:00:00</span>
+        </p>
+        <a class="tag btn-free p-24" href="/">
+            <img src="/Assets/Images/Buttons/BtnRed.png"/>
+            <span class="w-100 start-0">Go Back</span>
+        </a>
+    </aside>
+    <div class="board" style="grid-template-columns: repeat(@cols, @cellSize);">
+        @for (int i = 0; i < rows; i++)
+        {
+            @for (int j = 0; j < cols; j++)
+            {
+                <button class="cell" data-row="@i" data-col="@j" data-flagged="false"></button>
+            }
+        }
+    </div>
+    <aside class="sidebar m-4 ms-5">
+        <div id="rewardMenu" class="pt-4 text-start text-white">
+        </div>
+    </aside>
+</div>
+
+<script>
+    let usingReward = null;
+    let startTime = null;
+    document.querySelectorAll('.cell').forEach(btn => {
+        btn.addEventListener('click', function(e) {
+            e.preventDefault();
+            const row = this.getAttribute('data-row');
+            const col = this.getAttribute('data-col');
+            revealCell(row, col);
+        });
+
+        btn.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+            if (btn.disabled) {
+                return;
+            }
+            const row = this.getAttribute('data-row');
+            const col = this.getAttribute('data-col');
+            rightClick(e, row, col);
+            let dataFlagged = btn.getAttribute('data-flagged') === 'true';
+            btn.setAttribute('data-flagged', !dataFlagged ? 'true' : 'false');
+       });
+    });
+    
+	function revealCell(row, col) {
+	    if (usingReward) {
+            useReward(usingReward, row, col);
+            usingReward = null;
+            return;
+        }
+		fetch(`/Game/RevealCell?row=${row}&col=${col}`, {
+			method: 'POST'
+		})
+			.then(response => response.json())
+			.then(async data => {
+                if (data.invalid) {
+                    return;
+                }
+
+                if (startTime === null) {
+                    startTime = new Date(data.startTime);
+                    startTimer(startTime);
+                }
+
+                if (data.rewards) {
+                    updateBoard(data.cells, data.gameState);
+                    refreshRewards(data);
+                    sfxManager.play("Reward");
+                    return;
+                }
+
+                updateScore(data.score);
+
+                if (data.gameState === "lost" || data.gameState === "won") {
+                    stopTimer();
+                    const cellEles = document.querySelectorAll('.cell');
+                    cellEles.forEach(cell => cell.disabled = true);
+                    document.getElementById("rewardMenu").innerHTML = '';
+                    const animationType = data.gameState === "lost" ? "Explode" : "Defuse";
+                    const sound = data.gameState === "lost" ? "Lose" : "Win";
+                    const modalTitle = data.gameState === "lost" ? "You lost" : "You Win!";
+                    const modalMessage = data.gameState === "lost"
+                        ? `You lost with a score of ${data.score} 🥲`
+                        : `You won with a score of ${data.score}!`;
+
+                    await gameOverAnimation(data.cells, animationType);
+                    sfxManager.play(sound);
+                    updateBoard(data.cells, data.gameState);
+                    document.getElementById("gameModal").classList.add("active");
+                    document.querySelector(".modal-content h2").innerText = modalTitle;
+                    document.querySelector(".modal-content p").innerText = modalMessage;
+                } else {
+                    updateBoard(data.cells, data.gameState);
+                    sfxManager.play("Click");
+                }
+
+
+            })
+			.catch(error => console.error('Error:', error));
+	}
+	
+	function rightClick(e, row, col) {
+	    e.preventDefault();
+        fetch(`/Game/RightClick/?row=${row}&col=${col}`, {
+            method: 'POST'
+        })
+            .then(response => response.json())
+            .then(data => {
+                updateBoard(data.cells, data.gameState);
+                sfxManager.play("Flag");
+            })
+            .catch(error => console.error('Error:', error));      
+	}
+    
+    function updateBoard(cells, game, force = false) {
+        cells.forEach(cell => {
+            let cellElement = document.querySelector(`[data-row='${cell.row}'][data-col='${cell.col}']`);
+            if (cell.isFlagged && game == "continue") {
+                cellElement.style.backgroundImage = "url('/Assets/Images/Game/flag.png')";
+            } else if (cell.isMine && game != "continue" || force && cell.isMine) {
+                cellElement.style.backgroundImage = "url('/Assets/Images/Game/mine.png')";
+            } else if (cell.adjacentMines > 0 && cell.isRevealed || (game != "continue" && cell.adjacentMines > 0)) {
+                cellElement.style.backgroundImage = `url('/Assets/Images/Game/Num ${cell.adjacentMines}.png')`;
+                cellElement.disabled = true;
+            } else if (cell.isRevealed && cell.rewardType != 'None' && cell.rewardUsed === false || (game != "continue" && cell.rewardType != 'None')) {
+                cellElement.style.backgroundImage = `url('/Assets/Images/Game/Reward.png')`;
+            } else if (cell.isRevealed || game != "continue") {
+                cellElement.style.backgroundImage = "url('/Assets/Images/Game/tile revealed.png')";
+                cellElement.disabled = true;
+            } else {
+                cellElement.style.backgroundImage = "url('/Assets/Images/Game/tile.png')";
+            }
+
+            if (game != "continue") {
+                cellElement.disabled = true;
+            }
+        });
+    }
+    
+    function promptRewardClick(reward) {
+        sfxManager.play("Button");
+        let toast = document.getElementById('warn');
+        toast.remove();
+        toast = toast.cloneNode(true);
+        document.body.appendChild(toast);
+        toast.querySelector('.toast-body').innerText = `You're using ${reward}. Click any cell.`;
+        new bootstrap.Toast(toast, { autohide: false }).show();
+        usingReward = reward;
+    }
+    
+    function useReward(reward, row, col) {
+        sfxManager.play("Reward");
+        fetch(`/Game/UseReward?reward=${reward}&row=${row}&col=${col}`, {
+            method: 'POST'
+        })
+            .then(response => response.json())
+            .then(data => {
+                refreshRewards(data);
+                updateScore(data.score);
+                updateBoard(data.cells, data.gameState, true);
+                if (data.cells.length < 1) {
+                    let warnToast = document.getElementById('warn');
+                    warnToast.remove();
+                    warnToast = warnToast.cloneNode(true);
+                    document.body.appendChild(warnToast);
+                    let toast = document.getElementById('error');
+                    toast.remove();
+                    toast = toast.cloneNode(true);
+                    document.body.appendChild(toast);
+                    toast.querySelector('.toast-body').innerHTML = `Using ${reward} did not affect the game.`;
+                    new bootstrap.Toast(toast, { delay: 3000 }).show();
+                }
+            })
+            .catch(error => console.error('Error:', error));
+            
+        let toast = document.getElementById('warn');
+        toast.remove();
+        toast = toast.cloneNode(true);
+        document.body.appendChild(toast);
+        toast.querySelector('.toast-body').innerText = `You used ${reward}.`;
+        new bootstrap.Toast(toast, { delay: 3000 }).show();
+    }
+    
+    function refreshRewards(data) {
+        let rewardMenu = document.getElementById("rewardMenu");
+        rewardMenu.innerHTML = 'Use a reward:';
+        data.rewards.forEach(reward => {
+            rewardMenu.innerHTML += `
+                            <button class="tag btn-img w-100" onclick="promptRewardClick('${reward}')">
+                                <img src="/Assets/Images/Buttons/BtnYellow.png"/>
+                                <span>${reward}</span>
+                            </button>
+                        `;
+        });
+        
+        if (data.rewards.length < 1) {
+            rewardMenu.innerHTML = '';
+        }
+    }
+
+    function restartGame() {
+        window.location.reload();
+    }
+
+    function viewBoard() {
+        document.getElementById("gameModal").classList.remove("active");
+    }
+
+    function startGame() {
+        window.location.href = "/Game";
+    }
+
+    let timerInterval;
+
+    function startTimer(st) {
+        const timer = document.getElementById("timer");
+        timer.innerText = "00:00:00";
+
+        timerInterval = setInterval(() => {
+            const now = new Date();
+            const elapsed = now - st;
+            const seconds = Math.floor(elapsed / 1000) % 60;
+            const minutes = Math.floor(elapsed / 60000) % 60;
+            const hours = Math.floor(elapsed / 3600000);
+            timer.innerText = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+        }, 1000);
+    }
+
+    function stopTimer() {
+        clearInterval(timerInterval);
+    }
+
+
+    function updateScore(newPoints) {
+        const scoreElement = document.getElementById("score");
+        const currentScore = parseInt(scoreElement.innerText, 10) || 0;
+        const duration = 500;
+        const startTimeScore = performance.now();
+
+        function animateScore(time) {
+            const elapsedTime = time - startTimeScore;
+            const progress = Math.min(elapsedTime / duration, 1);
+            const animatedScore = Math.floor(currentScore + (newPoints - currentScore) * progress);
+
+            scoreElement.innerText = animatedScore;
+
+            if (progress < 1) {
+                requestAnimationFrame(animateScore);
+            }
+        }
+
+        requestAnimationFrame(animateScore);
+    }
+
+    async function gameOverAnimation(cells, type) {
+        let mineCells = cells.filter(cell => cell.isMine);
+        const totalMines = mineCells.length;
+        const maxDuration = 3000; // 3 seconds
+        const interval = totalMines > 1 ? maxDuration / (totalMines - 1) : 0;
+
+        // Shuffle mines randomly
+        mineCells = mineCells.sort(() => Math.random() - 0.5);
+
+        mineCells.forEach((cell, index) => {
+            setTimeout(() => {
+                const cellEle = document.querySelector(`[data-row='${cell.row}'][data-col='${cell.col}']`);
+                if (!cellEle) return;
+                sfxManager.play(type);
+                
+                const img = document.createElement('img');
+                img.classList.add('gameOverImg');
+                img.src = `/Assets/Images/Game/${type}.gif?${new Date().getTime()}`;
+                cellEle.appendChild(img);
+
+                setTimeout(() => {
+                    img.src = `/Assets/Images/Game/Exploded.png`;
+                }, 700);
+            }, index * interval);
+        });
+
+        await new Promise(resolve => setTimeout(resolve, maxDuration + 1000));
+    }
+
+
+
+
+
+</script>
