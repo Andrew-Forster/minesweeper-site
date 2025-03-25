@@ -9,7 +9,6 @@
         "projectUniqueName": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\MinesweeperLibrary\\MinesweeperLibrary.csproj",
         "projectName": "MinesweeperLibrary",
         "projectPath": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\MinesweeperLibrary\\MinesweeperLibrary.csproj",
-        "UsingMicrosoftNETSdk": false,
         "frameworks": {
           "net472": {
             "projectReferences": {}
@@ -63,8 +62,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
