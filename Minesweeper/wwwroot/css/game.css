@@ -30,6 +30,7 @@
     bottom: 24px;
     left: 24px;
     width: 200px;
+    z-index: 2;
 }
 
 .tag span {
@@ -137,4 +138,43 @@ body:has(#gameModal.active)::before {
     height: 100%;
     pointer-events: none;
     object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    main {
+        padding-bottom: 60px;
+    }
+    .game-container {
+        height: auto !important;
+    }
+
+    #rewardMenu .tag.btn-img {
+        max-width: 49%;
+    }
+    
+    .tag.btn-free {
+        position: relative;
+        inset: 0;
+        padding: 20px 0;
+    }
+    
+    .sidebar {
+        width: 100%;
+    }
+    
+    /* Modal */
+    #gameModal {
+        width: 90%;
+        max-width: unset;
+        padding: 20px;
+        
+        span {
+            font-size: 12px;
+        }
+    }
+    
+    .modal-content {
+        padding: 20px;
+    }
+    
 }

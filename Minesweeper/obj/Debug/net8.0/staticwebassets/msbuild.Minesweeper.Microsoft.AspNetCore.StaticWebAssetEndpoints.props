@@ -924,29 +924,29 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-UaZeXAm/J5gK32QMtUyypbuyF/2qt5s3fhWPklMzYqk="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"12076"},{"Name":"Content-Type","Value":"font/otf"},{"Name":"ETag","Value":"\u0022UaZeXAm/J5gK32QMtUyypbuyF/2qt5s3fhWPklMzYqk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 07 Mar 2025 05:49:48 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Minesweeper/css/game.atqhz1wbbl.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\game.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"atqhz1wbbl"},{"Name":"integrity","Value":"sha256-/ghWrKH9yBprKBkiN1\u002BFyLX4eE4e7BeG2u4Qmhfo6hw="},{"Name":"label","Value":"_content/Minesweeper/css/game.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2487"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022/ghWrKH9yBprKBkiN1\u002BFyLX4eE4e7BeG2u4Qmhfo6hw=\u0022"},{"Name":"Last-Modified","Value":"Tue, 18 Mar 2025 17:52:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Minesweeper/css/game.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\game.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-q8E6Ep\u002BbcOXG2oruncWa8adGerlzBnln7Rmy5lzWN\u002B8="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2464"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022q8E6Ep\u002BbcOXG2oruncWa8adGerlzBnln7Rmy5lzWN\u002B8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 07 Mar 2025 15:55:05 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-/ghWrKH9yBprKBkiN1\u002BFyLX4eE4e7BeG2u4Qmhfo6hw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2487"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022/ghWrKH9yBprKBkiN1\u002BFyLX4eE4e7BeG2u4Qmhfo6hw=\u0022"},{"Name":"Last-Modified","Value":"Tue, 18 Mar 2025 17:52:11 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Minesweeper/css/game.pbzmyg8z8o.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\game.css'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/Minesweeper/css/site.49z5ekp3k8.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"pbzmyg8z8o"},{"Name":"integrity","Value":"sha256-q8E6Ep\u002BbcOXG2oruncWa8adGerlzBnln7Rmy5lzWN\u002B8="},{"Name":"label","Value":"_content/Minesweeper/css/game.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2464"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022q8E6Ep\u002BbcOXG2oruncWa8adGerlzBnln7Rmy5lzWN\u002B8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 07 Mar 2025 15:55:05 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"49z5ekp3k8"},{"Name":"integrity","Value":"sha256-SNB4L1kiQmbGPDn\u002BRw8b72SWuL3rdbIHxf/7slLr3kk="},{"Name":"label","Value":"_content/Minesweeper/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2927"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022SNB4L1kiQmbGPDn\u002BRw8b72SWuL3rdbIHxf/7slLr3kk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 23 Mar 2025 18:19:37 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Minesweeper/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-/agQnRaYosSRK8TNkhI0TczvS9zpF4cSlNkULu8oKL0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2927"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022/agQnRaYosSRK8TNkhI0TczvS9zpF4cSlNkULu8oKL0=\u0022"},{"Name":"Last-Modified","Value":"Sat, 08 Mar 2025 00:23:44 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Minesweeper/css/site.nv1ablplzu.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nv1ablplzu"},{"Name":"integrity","Value":"sha256-/agQnRaYosSRK8TNkhI0TczvS9zpF4cSlNkULu8oKL0="},{"Name":"label","Value":"_content/Minesweeper/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2927"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022/agQnRaYosSRK8TNkhI0TczvS9zpF4cSlNkULu8oKL0=\u0022"},{"Name":"Last-Modified","Value":"Sat, 08 Mar 2025 00:23:44 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-SNB4L1kiQmbGPDn\u002BRw8b72SWuL3rdbIHxf/7slLr3kk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2927"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022SNB4L1kiQmbGPDn\u002BRw8b72SWuL3rdbIHxf/7slLr3kk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 23 Mar 2025 18:19:37 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Minesweeper/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
