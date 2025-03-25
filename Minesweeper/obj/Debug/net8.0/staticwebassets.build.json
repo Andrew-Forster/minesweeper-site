@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ifQDVBPH6Cf6VToFIWreBVhJznxyhe/zWxu0ue/vYZU=",
+  "Hash": "fZItMqvR1p10WdI8DEb8YOFsbWFTWjLOLV9xYPeS1zc=",
   "Source": "Minesweeper",
   "BasePath": "_content/Minesweeper",
   "Mode": "Default",
@@ -1690,8 +1690,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "pbzmyg8z8o",
-      "Integrity": "q8E6Ep+bcOXG2oruncWa8adGerlzBnln7Rmy5lzWN+8=",
+      "Fingerprint": "atqhz1wbbl",
+      "Integrity": "/ghWrKH9yBprKBkiN1+FyLX4eE4e7BeG2u4Qmhfo6hw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\game.css"
@@ -1711,8 +1711,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "nv1ablplzu",
-      "Integrity": "/agQnRaYosSRK8TNkhI0TczvS9zpF4cSlNkULu8oKL0=",
+      "Fingerprint": "49z5ekp3k8",
+      "Integrity": "SNB4L1kiQmbGPDn+Rw8b72SWuL3rdbIHxf/7slLr3kk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -9294,6 +9294,51 @@
       ]
     },
     {
+      "Route": "css/game.atqhz1wbbl.css",
+      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\css\\game.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2487"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/ghWrKH9yBprKBkiN1+FyLX4eE4e7BeG2u4Qmhfo6hw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 17:52:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "atqhz1wbbl"
+        },
+        {
+          "Name": "label",
+          "Value": "css/game.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/ghWrKH9yBprKBkiN1+FyLX4eE4e7BeG2u4Qmhfo6hw="
+        }
+      ]
+    },
+    {
       "Route": "css/game.css",
       "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\css\\game.css",
       "Selectors": [],
@@ -9304,7 +9349,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2464"
+          "Value": "2487"
         },
         {
           "Name": "Content-Type",
@@ -9312,11 +9357,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"q8E6Ep+bcOXG2oruncWa8adGerlzBnln7Rmy5lzWN+8=\""
+          "Value": "\"/ghWrKH9yBprKBkiN1+FyLX4eE4e7BeG2u4Qmhfo6hw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 15:55:05 GMT"
+          "Value": "Tue, 18 Mar 2025 17:52:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9326,13 +9371,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-q8E6Ep+bcOXG2oruncWa8adGerlzBnln7Rmy5lzWN+8="
+          "Value": "sha256-/ghWrKH9yBprKBkiN1+FyLX4eE4e7BeG2u4Qmhfo6hw="
         }
       ]
     },
     {
-      "Route": "css/game.pbzmyg8z8o.css",
-      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\css\\game.css",
+      "Route": "css/site.49z5ekp3k8.css",
+      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9341,7 +9386,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2464"
+          "Value": "2927"
         },
         {
           "Name": "Content-Type",
@@ -9349,11 +9394,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"q8E6Ep+bcOXG2oruncWa8adGerlzBnln7Rmy5lzWN+8=\""
+          "Value": "\"SNB4L1kiQmbGPDn+Rw8b72SWuL3rdbIHxf/7slLr3kk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 15:55:05 GMT"
+          "Value": "Sun, 23 Mar 2025 18:19:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9363,15 +9408,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "pbzmyg8z8o"
+          "Value": "49z5ekp3k8"
         },
         {
           "Name": "label",
-          "Value": "css/game.css"
+          "Value": "css/site.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-q8E6Ep+bcOXG2oruncWa8adGerlzBnln7Rmy5lzWN+8="
+          "Value": "sha256-SNB4L1kiQmbGPDn+Rw8b72SWuL3rdbIHxf/7slLr3kk="
         }
       ]
     },
@@ -9394,11 +9439,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/agQnRaYosSRK8TNkhI0TczvS9zpF4cSlNkULu8oKL0=\""
+          "Value": "\"SNB4L1kiQmbGPDn+Rw8b72SWuL3rdbIHxf/7slLr3kk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 00:23:44 GMT"
+          "Value": "Sun, 23 Mar 2025 18:19:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9408,52 +9453,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/agQnRaYosSRK8TNkhI0TczvS9zpF4cSlNkULu8oKL0="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.nv1ablplzu.css",
-      "AssetFile": "C:\\Users\\forst\\Coding\\VS Code Workspace\\Projects\\LEARNING\\Minesweeper\\Minesweeper\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2927"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"/agQnRaYosSRK8TNkhI0TczvS9zpF4cSlNkULu8oKL0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 00:23:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "nv1ablplzu"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-/agQnRaYosSRK8TNkhI0TczvS9zpF4cSlNkULu8oKL0="
+          "Value": "sha256-SNB4L1kiQmbGPDn+Rw8b72SWuL3rdbIHxf/7slLr3kk="
         }
       ]
     },
