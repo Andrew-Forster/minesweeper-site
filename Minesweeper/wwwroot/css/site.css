@@ -5,7 +5,8 @@
 /* Fonts */
 @font-face {
     font-family: "Azonix";
-    src: url("/Assets/Azonix.otf");
+    src: url("/Assets/azonix.tff") format("truetype"),
+    url("/Assets/Azonix.otf") format("opentype");
 }
 
 @media (min-width: 768px) {
