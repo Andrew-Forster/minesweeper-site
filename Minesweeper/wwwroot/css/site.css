@@ -138,11 +138,11 @@ button {
 
 .toast {
     position: fixed;
-    bottom: 0;
+    bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 1000;
-    padding: 10px;
+    padding: 3px;
     background-color: rgba(31, 29, 29, 0.9);
     color: #e0e0e0;
     text-align: center;
@@ -157,4 +157,11 @@ button {
 
 #warn {
     border: 2px solid rgba(255, 255, 140, 0.4);
+}
+
+@media (max-width: 768px) {
+
+    .toast {
+        width: 90% !important;
+    }
 }
