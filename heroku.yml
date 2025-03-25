@@ -1,0 +1,3 @@
+﻿build:
+  docker:
+    web: Minesweeper/Minesweeper.csproj
