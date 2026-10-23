@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Play Minesweeper with Detector, Scavenge, and Sweep rewards. The game runs in your browser.">
+  <title>Minesweeper</title>
+  <link rel="icon" type="image/png" href="/Assets/Images/Game/Mine.png">
+  <link rel="stylesheet" href="/lib/bootstrap/bootstrap.min.css">
+</head>
+<body>
+  <main class="main-container h-100">
+    <section id="menuScreen" aria-label="Choose difficulty">
+<form id="startForm" class="active">
+
+    <div id="difficulty" class="container limit">
+        <div class="d-flex">
+            <button type="button" aria-pressed="true" class="custom-btn selected difficulty-btn" data-difficulty="Easy">
+                <img src="/Assets/Images/Buttons/BtnEasy.png" alt="Easy" width="150">
+                <img class="select" src="/Assets/Images/Buttons/BtnSelect.png" alt="" width="150">
+            </button>
+            <button type="button" aria-pressed="false" class="custom-btn difficulty-btn" data-difficulty="Medium">
+                <img src="/Assets/Images/Buttons/BtnMedium.png" alt="Medium" width="150">
+                <img class="select" src="/Assets/Images/Buttons/BtnSelect.png" alt="" width="150">
+            </button>
+        </div>
+        <div class="d-flex">
+            <button type="button" aria-pressed="false" class="custom-btn difficulty-btn" data-difficulty="Hard">
+                <img src="/Assets/Images/Buttons/BtnHard.png" alt="Hard" width="150">
+                <img class="select" src="/Assets/Images/Buttons/BtnSelect.png" alt="" width="150">
+            </button>
+            <button type="button" aria-pressed="false" class="custom-btn difficulty-btn" data-difficulty="Custom">
+                <img src="/Assets/Images/Buttons/BtnCustom.png" alt="Custom" width="150">
+                <img class="select" src="/Assets/Images/Buttons/BtnSelect.png" alt="" width="150">
+            </button>
+        </div>
+    </div>
+    <div class="container limit">
+        <div class="custom-container" hidden>
+            <div id="boardSizeContainer" class="d-flex">
+                <label for="boardSize">Board Size: <span id="boardSizeValue">9</span></label>
+                <input class="float-end flex-shrink-0" type="range" id="boardSize" name="BoardSize" min="5" max="24" value="9">
+            </div>
+            <div id="mineCountContainer" class="d-flex">
+                <label for="mineCount">Mine Count: <span id="mineCountValue">12</span></label>
+                <input class="float-end flex-shrink-0" type="range" id="mineCount" name="MineCount" min="5" max="24" value="12">
+            </div>
+        </div>
+
+        <label class="player-name" for="playerName">Leaderboard name <span>(optional)</span>
+            <input id="playerName" type="text" maxlength="20" autocomplete="nickname" spellcheck="false">
+        </label>
+        <button type="submit" class="custom-btn lg pt-2">
+            <img src="/Assets/Images/Buttons/BtnStart.png" alt="Start" width="150">
+        </button>
+    </div>
+</form>
+<div class="backdrop"></div>
+<aside id="leaderboard" aria-labelledby="leaderboardTitle">
+    <h1 id="leaderboardTitle">Leaderboard</h1>
+    <p id="leaderboardDifficulty">Easy</p>
+    <table>
+        <thead><tr><th scope="col">Rank</th><th scope="col">Name</th><th scope="col">Score</th></tr></thead>
+        <tbody id="leaderboardRows"></tbody>
+    </table>
+    <p id="leaderboardStatus" role="status"></p>
+    <p class="leaderboard-note">Top 10 wins. Names are public and not unique.</p>
+</aside>
+
+
+    </section>
+    <section id="gameScreen" class="h-100" aria-label="Game" hidden>
+<div id="gameModal" role="dialog" aria-modal="true" aria-labelledby="resultTitle" hidden>
+    <div class="modal-content align-items-center">
+        <h2 id="resultTitle">Game Over!</h2>
+        <p id="gamePoints"></p>
+        <p id="resultStatus" role="status"></p>
+        <button class="tag btn-img w-100 m-0 py-1" type="button" id="playAgain">
+            <img alt="" src="/Assets/Images/Buttons/BtnYellow.png"/>
+            <span class="ms-3">Play Again?</span>
+        </button>        <button class="tag btn-img w-100 m-0 py-1" type="button" id="adjustDifficulty">
+            <img alt="" src="/Assets/Images/Buttons/BtnGreen.png"/>
+            <span class="ms-3">Adjust Difficulty</span>
+        </button>        <button class="tag btn-img w-100 m-0 py-1" type="button" id="viewBoard">
+            <img alt="" src="/Assets/Images/Buttons/BtnRed.png"/>
+            <span class="ms-3">View Board</span>
+        </button>
+    </div>
+</div>
+
+<div class="game-container h-100 flex-column flex-md-row px-3 px-md-0">
+    <aside class="sidebar m-0 mt-2 d-flex d-md-block m-md-4 me-md-5">
+        <p class="tag flex-grow-1" >
+            <img alt="" src="/Assets/Images/Game/score4.png"/>
+            <span id="score">0</span>
+        </p>
+        <p class="tag">
+            <img alt="" src="/Assets/Images/Game/info4.png"/>
+            <span id="timer">00:00:00</span>
+        </p>
+    </aside>
+    <div class="board" role="group" aria-label="Minesweeper board"></div>
+    <aside class="sidebar m-0 m-md-4 ms-md-5">
+        <div id="rewardMenu" class="pt-4 text-start text-white d-flex flex-wrap">
+        </div>
+    </aside>
+    <a class="tag btn-free p-24" href="/" id="goBack">
+        <img alt="" src="/Assets/Images/Buttons/BtnRed.png"/>
+        <span class="w-100 start-0">Go Back</span>
+    </a>
+</div>
+
+
+    </section>
+  </main>
+  <div id="notice" role="status" aria-live="polite" hidden></div>
+  <noscript>This game needs JavaScript to run in your browser.</noscript>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

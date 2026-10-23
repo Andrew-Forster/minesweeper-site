@@ -1,0 +1,14 @@
+**
+!package.json
+!pnpm-lock.yaml
+!tsconfig.json
+!tsconfig.server.json
+!index.html
+!src/
+!src/**
+!server/
+!server/**
+!public/
+!public/**
+!deploy/
+!deploy/nginx.conf

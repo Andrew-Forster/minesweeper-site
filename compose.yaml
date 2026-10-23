@@ -1,0 +1,65 @@
+services:
+  web:
+    build:
+      context: .
+      target: web
+    depends_on:
+      leaderboard:
+        condition: service_healthy
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:3187:8080"
+    read_only: true
+    user: "101:101"
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,size=16m
+    mem_limit: 128m
+    cpus: 0.5
+    pids_limit: 64
+    networks:
+      - edge
+      - game
+    logging:
+      driver: json-file
+      options:
+        max-size: "5m"
+        max-file: "2"
+
+  leaderboard:
+    build:
+      context: .
+      target: leaderboard
+    restart: unless-stopped
+    read_only: true
+    user: "1000:1000"
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    mem_limit: 128m
+    cpus: 0.5
+    pids_limit: 64
+    environment:
+      PUBLIC_ORIGIN: https://minesweeper.andrewjf.com
+      DATABASE_PATH: /data/leaderboard.sqlite
+    volumes:
+      - scores:/data
+    networks:
+      - game
+    logging:
+      driver: json-file
+      options:
+        max-size: "5m"
+        max-file: "2"
+
+networks:
+  edge:
+  game:
+    internal: true
+
+volumes:
+  scores:
